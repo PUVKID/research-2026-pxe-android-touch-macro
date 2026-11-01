@@ -1,0 +1,58 @@
+{
+  "version": "1.8.0",
+  "revision": 18,
+  "independent_device_tests": 114,
+  "unit_tests": 104,
+  "unit_classes": 19,
+  "lint_issues": 0,
+  "plans": [
+    {
+      "name": "required",
+      "tests": 52,
+      "elapsed_seconds": 330.484,
+      "limit_seconds": 720
+    },
+    {
+      "name": "recognition",
+      "tests": 12,
+      "elapsed_seconds": 37.469,
+      "limit_seconds": 240
+    },
+    {
+      "name": "adaptive",
+      "tests": 25,
+      "elapsed_seconds": 94.25,
+      "limit_seconds": 480
+    },
+    {
+      "name": "recovery",
+      "tests": 15,
+      "elapsed_seconds": 56.172,
+      "limit_seconds": 240
+    },
+    {
+      "name": "hud",
+      "tests": 10,
+      "elapsed_seconds": 54.328,
+      "limit_seconds": 240
+    }
+  ],
+  "previous_revision_preserved_items": 146,
+  "apks": [
+    {
+      "file": "PXE_18차_v1.8_PC용.apk",
+      "bytes": 35351522,
+      "sha256": "2130c06650d940679ea2eb88e69b867a896c910890c1f011e7d4335c74f5d12a"
+    },
+    {
+      "file": "PXE_18차_v1.8_노트10플러스.apk",
+      "bytes": 23714266,
+      "sha256": "da3502ce0031b7d7d219c72271cc9a95d1bf4f03bb409897e37981410c89656a"
+    }
+  ],
+  "limits": [
+    "사용자 블루스택·LD·게임·실제 휴대폰 및24시간 운용 미검증",
+    "이번 차수의15회 처리속도 비교 미실행",
+    "통제 시험의 통과를 실제 환경의 완전 무오류로 확대하지 않음"
+  ]
+}

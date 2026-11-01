@@ -26,6 +26,7 @@
 | 15차 | [📁 120개](../15%EC%B0%A8) | [기능·검증 설명](../docs/versions/15%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/15%EC%B0%A8.md) |
 | 16차 | [📁 153개](../16%EC%B0%A8) | [기능·검증 설명](../docs/versions/16%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/16%EC%B0%A8.md) |
 | 17차 | [📁 148개 · 소스143개](../17%EC%B0%A8) | [기능·검증 설명](../docs/versions/17%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/17%EC%B0%A8.md) |
+| 18차 | [📁 155개 · 소스150개](../18%EC%B0%A8) | [기능·검증 설명](../docs/versions/18%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/18%EC%B0%A8.md) |
 | 실행점검-2차 | [📁 7개](../%EC%8B%A4%ED%96%89%EC%A0%90%EA%B2%80/2%EC%B0%A8) | [기능·검증 설명](../docs/versions/%EC%8B%A4%ED%96%89%EC%A0%90%EA%B2%80-2%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/%EC%8B%A4%ED%96%89%EC%A0%90%EA%B2%80-2%EC%B0%A8.md) |
 | 최종.json | [📄 매크로 설정](../최종.json) | [자료 설명](../docs/versions/최종설정.md) | 제품 버전과 구분한 설정 |
 | 고유 작업 자료 | [📁 170개](../보존자료/작업소스/) | [원본 제품자료 목록](../docs/SOURCE_MATERIALS.md) | [전체 비교·차수별 해시](../docs/REVISION_AUDIT.md) |
