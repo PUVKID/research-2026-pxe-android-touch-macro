@@ -269,5 +269,6 @@ PC용은 `-PNEX_PC`로 ARM64와 x86_64를 함께 빌드합니다. 납품용 `빌
 | **15차** | [📁 검수 자료](15%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-15.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
 | **16차** | [📁 검수 자료](16%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-16.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
 | **17차** | [📁 검수 자료](17%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-17.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
+| **18차** | [📁 검수 자료](18%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-18.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
 
 </details>

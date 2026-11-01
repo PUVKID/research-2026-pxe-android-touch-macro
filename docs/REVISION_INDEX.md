@@ -58,5 +58,6 @@
 | **15차** | [📁 검수 자료](../15%EC%B0%A8) | [📖 정리 내용](publication-review/item-15.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
 | **16차** | [📁 검수 자료](../16%EC%B0%A8) | [📖 정리 내용](publication-review/item-16.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
 | **17차** | [📁 검수 자료](../17%EC%B0%A8) | [📖 정리 내용](publication-review/item-17.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
+| **18차** | [📁 검수 자료](../18%EC%B0%A8) | [📖 정리 내용](publication-review/item-18.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
 
 </details>
