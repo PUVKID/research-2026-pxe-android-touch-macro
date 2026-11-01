@@ -3,9 +3,9 @@
     "path": "11차_보존기준.json",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 17480,
+    "after_bytes": 14600,
     "before_sha256": null,
-    "after_sha256": "1fc9b6237629d66318529b6f7137ef181280b29fe7593ff537b169249f47c5e8"
+    "after_sha256": "2e11ff6397c01459eb44e63d714d9c9ff29c9c1d425a4b599a2ba11b4ea3c59b"
   },
   {
     "path": "APK_SHA256.json",
@@ -128,14 +128,6 @@
     "after_sha256": "eacedd2642485efbd4ccf7c0286640732ffd9465bef77c664208ec7c008dd423"
   },
   {
-    "path": "source/local.properties",
-    "status": "수정",
-    "before_bytes": 75,
-    "after_bytes": 75,
-    "before_sha256": "66d271f31d88b54ef51eb3f277e3c9ddec3c156fb710fd5810da6cb328f9a464",
-    "after_sha256": "d23285ef513f88f65172465e32bcbf7a5bb48a45c2193f5c0db3d1e35a1bee5f"
-  },
-  {
     "path": "source/tools/check_device.py",
     "status": "수정",
     "before_bytes": 1185,
@@ -203,9 +195,9 @@
     "path": "검증결과_초기보고.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 1627,
+    "after_bytes": 1487,
     "before_sha256": null,
-    "after_sha256": "3e7e6c332255b5803c6c12c5ab9575c7a1aeb480dc35a719795e42c321bab47b"
+    "after_sha256": "d7da774686f4a64ff3078e325d19524544209a87abcf3ea31ecfde6df322d1a5"
   },
   {
     "path": "라우팅기록.md",
@@ -219,9 +211,9 @@
     "path": "라우팅기록.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 15290,
+    "after_bytes": 15262,
     "before_sha256": null,
-    "after_sha256": "b4235fe6abb13ebc32d20be197206a8fb956f2c0cb88514469d19a86bdb74c6f"
+    "after_sha256": "59a5f877e0fd5fae26e00a7dbfe125c814be92ff62810fc1632b8e2351510e1f"
   },
   {
     "path": "먼저읽기.txt",

@@ -88,14 +88,6 @@
     "after_sha256": "7551626823cc2b59fd54c83f55c4baef7a3b02da64c1680728bdab858ec56f4e"
   },
   {
-    "path": "source/local.properties",
-    "status": "수정",
-    "before_bytes": 76,
-    "after_bytes": 76,
-    "before_sha256": "e8d2c63bedd5ae10e51c78fc61e456d7d9222e43f9f20e364f8821990250038c",
-    "after_sha256": "c122ef21c4ecf99e9c6d75fafea42e85502a02d84d309133acc109b03153d9ff"
-  },
-  {
     "path": "source/빌드.ps1",
     "status": "수정",
     "before_bytes": 1528,

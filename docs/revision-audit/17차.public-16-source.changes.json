@@ -1,0 +1,334 @@
+{
+  "baseline": "현재 공개16차",
+  "target": "현재 공개17차",
+  "scope": "source",
+  "changes": [
+    {
+      "path": "README.md",
+      "change": "modified",
+      "before": {
+        "bytes": 6213,
+        "sha256": "e945a32901c6c06c86c54c4b12898940369fc4fed45697739110123185339d26"
+      },
+      "after": {
+        "bytes": 8572,
+        "sha256": "25f18584dd1c414d0c69ac1e5b0f10609458f7f27ea45326fdabdff494ca5694"
+      }
+    },
+    {
+      "path": "app/build.gradle",
+      "change": "modified",
+      "before": {
+        "bytes": 1565,
+        "sha256": "6a061b496e3052bf597f822ead8febf8012b17c30899f6da9d32d90e55ba8815"
+      },
+      "after": {
+        "bytes": 1565,
+        "sha256": "2c6d3883ebbc2963de0529c95f993f3a051ecb580bbdaa5c1cdb59f169a8e632"
+      }
+    },
+    {
+      "path": "app/src/androidTest/java/kr/yunseok/touchmacro/PxeUpgradeTest.java",
+      "change": "modified",
+      "before": {
+        "bytes": 2096,
+        "sha256": "3d0ebfd4f3987158b0c48eb9735c94300746567d5ffa5f7f6dde686cb09c9f53"
+      },
+      "after": {
+        "bytes": 2096,
+        "sha256": "18bfce82afc43056b7e55b056dd6f831511ee8cb1861a419d1122c5fed154cda"
+      }
+    },
+    {
+      "path": "app/src/androidTest/java/kr/yunseok/touchmacro/RecognitionRecoveryTest.java",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 11003,
+        "sha256": "196fadc2251d0757b6ac1d5e5c6ec082e517c05dd953106a10ccb4885c3cfb88"
+      }
+    },
+    {
+      "path": "app/src/androidTest/java/kr/yunseok/touchmacro/ScreenDelayRecoveryTest.java",
+      "change": "modified",
+      "before": {
+        "bytes": 8863,
+        "sha256": "ef6b3946e6153b6a47b111f77adbe2220eacfbc8d31a93163d06028a1c22fa52"
+      },
+      "after": {
+        "bytes": 9185,
+        "sha256": "5705c0da757efc9fbde567597df9be4fee4b07ff7cce0c732898fbc52e92c372"
+      }
+    },
+    {
+      "path": "app/src/androidTest/java/kr/yunseok/touchmacro/ShortScrollTest.java",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 3307,
+        "sha256": "2306023e48e9b28ff0279e09e03d424f28bc94d81a4ca64d2824ebc614a4d2c2"
+      }
+    },
+    {
+      "path": "app/src/androidTest/java/kr/yunseok/touchmacro/WatchRecoveryBoundaryTest.java",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 2499,
+        "sha256": "841a59727c565badc0bf61c10dd1a20a8dc71432378978ce4d7f3d8771a714a8"
+      }
+    },
+    {
+      "path": "app/src/main/java/kr/yunseok/touchmacro/MacroService.java",
+      "change": "modified",
+      "before": {
+        "bytes": 64966,
+        "sha256": "749e2ea8271e45570e9c297adbb552797b85e09f6b00bb520f1a283b0b84a1bb"
+      },
+      "after": {
+        "bytes": 68747,
+        "sha256": "56fa40dc1a9e80cca5ef740a675939c206aeda7a914abdf2feccbe889f2f577f"
+      }
+    },
+    {
+      "path": "app/src/main/java/kr/yunseok/touchmacro/MainActivity.java",
+      "change": "modified",
+      "before": {
+        "bytes": 62831,
+        "sha256": "869829147858341c6eae1b36c7e56c3c2b1350bbcf8d96b0e271636bf84a7dde"
+      },
+      "after": {
+        "bytes": 62831,
+        "sha256": "51f8e0fcd4069d696dd31c8beebc69cf43215251a73d282989b714807a2641b1"
+      }
+    },
+    {
+      "path": "app/src/main/java/kr/yunseok/touchmacro/QueryLane.java",
+      "change": "modified",
+      "before": {
+        "bytes": 1434,
+        "sha256": "4029cc87a2729ded7c57f77b873d46dcaf2be9c5ac736f952ee4dea5efac8a60"
+      },
+      "after": {
+        "bytes": 1474,
+        "sha256": "3b4642e6514c6777d6562a82afe24bb46826c0a21878fa4dbfd99e5fa9e49d94"
+      }
+    },
+    {
+      "path": "app/src/main/java/kr/yunseok/touchmacro/WatchConfig.java",
+      "change": "modified",
+      "before": {
+        "bytes": 6120,
+        "sha256": "eb2bc05ce8794e078c6696113fb1046241c0c0949e326307e3cdcb8cf9475eac"
+      },
+      "after": {
+        "bytes": 6122,
+        "sha256": "b1f9f574093342bd2e7b09f6cb3d0688bd34fe199b2f51f8387288e4009578a2"
+      }
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "change": "modified",
+      "before": {
+        "bytes": 733,
+        "sha256": "f0e96a8120aedc7d4f08e85ffdc076e3c24568863f92fda6973127cdb23be57b"
+      },
+      "after": {
+        "bytes": 733,
+        "sha256": "94c512e28eae1cc6a50682685cd17fecabf394e36d8eeb1b44607375d573f570"
+      }
+    },
+    {
+      "path": "app/src/test/java/kr/yunseok/touchmacro/ShortRefreshTest.java",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 740,
+        "sha256": "ee8a26dea45f81230d76137ace4076379592fe9d66be48d911486803a6950962"
+      }
+    },
+    {
+      "path": "app/src/test/java/kr/yunseok/touchmacro/WatchConfigTest.java",
+      "change": "modified",
+      "before": {
+        "bytes": 3547,
+        "sha256": "c46c43e94385c120ffcc096e5961c1934b5e4a3a7761bf8088204b1626cc79d3"
+      },
+      "after": {
+        "bytes": 3549,
+        "sha256": "7d33bda932f48c446196c214e4cf2743d919f12b2946859c4a3b525104ddd6cc"
+      }
+    },
+    {
+      "path": "docs/2026-10-28_15차_인식개선_명세와계획.md",
+      "change": "modified",
+      "before": {
+        "bytes": 7387,
+        "sha256": "35266c64a16e93c11dcad8426202573aeec69e4f33995a66cbb7ef6c0b1a3b36"
+      },
+      "after": {
+        "bytes": 7384,
+        "sha256": "e2e4e4b1cbb387e293eda45d2450914c066ed91c73ec50e0c02b5bac88664d4e"
+      }
+    },
+    {
+      "path": "docs/2026-10-28_16차_적응대기와입체UI_명세계획.md",
+      "change": "modified",
+      "before": {
+        "bytes": 11134,
+        "sha256": "3c4a7d1dfc078d2f5949db72caeb1a8932ae24a4a90f5f263e5e885be0425a2a"
+      },
+      "after": {
+        "bytes": 11151,
+        "sha256": "c4905f268f640b82a6bafc7b222c9038e89d9071d7c5451097a35fd6b7253f52"
+      }
+    },
+    {
+      "path": "docs/2026-11-02_17차_인식복구와짧은스크롤_명세계획.md",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 5382,
+        "sha256": "0d9af525b63a857d8bdac45332814e9501ca7bc8163201af0070ee26bbc52b44"
+      }
+    },
+    {
+      "path": "local.properties",
+      "change": "deleted",
+      "before": {
+        "bytes": 107,
+        "sha256": "7d4eaded4e2af23a6fb09517f84d94686c2e8740b8b6d0889c993a4ffef72ac1"
+      },
+      "after": null
+    },
+    {
+      "path": "tools/adaptive-check-plan.json",
+      "change": "modified",
+      "before": {
+        "bytes": 2152,
+        "sha256": "3204a6555b8582426e7f30c70f34c769887fb0783066ec2a3af13d7da6b2cfa7"
+      },
+      "after": {
+        "bytes": 2152,
+        "sha256": "465c5cb03d7b30a27aeacd2386eb04819ea1979e1be164d43e19e1a219a98242"
+      }
+    },
+    {
+      "path": "tools/check_artifacts.py",
+      "change": "modified",
+      "before": {
+        "bytes": 3623,
+        "sha256": "b5d17b875b59004e8f26fb7d82bc4c6083ed67d8cd27d33c1feb4f6ad501b959"
+      },
+      "after": {
+        "bytes": 3623,
+        "sha256": "7fa6809ee6e4b3f28cbfa35d925fcf5334ac84fef134b4e21d7a758adbd5d8b7"
+      }
+    },
+    {
+      "path": "tools/check_device.py",
+      "change": "modified",
+      "before": {
+        "bytes": 1229,
+        "sha256": "a782de1497acd4cf6fcfda9ad947ba664d118cd327728d482bc4b1a775714e69"
+      },
+      "after": {
+        "bytes": 1229,
+        "sha256": "7fef797974585a6146019b9458cd7ffa003b1cb4ce1f7d1680d57c174ca092ac"
+      }
+    },
+    {
+      "path": "tools/check_performance.py",
+      "change": "modified",
+      "before": {
+        "bytes": 1473,
+        "sha256": "84af4dedc6bff4c756cb240cef215531d7b4e61badd37603df4a9fe959ce46f4"
+      },
+      "after": {
+        "bytes": 1473,
+        "sha256": "81e6a9b0539898840d7e6cbccf6b9bc49bffc8ef85fbc07638ef5c59d77027a2"
+      }
+    },
+    {
+      "path": "tools/check_recognition_device.py",
+      "change": "modified",
+      "before": {
+        "bytes": 1742,
+        "sha256": "9e530f6fc67a6c236c83296f304ca418f425a8a6a7ef46864f4d4f4715be247b"
+      },
+      "after": {
+        "bytes": 1742,
+        "sha256": "5e3f7a71ac39b8ab2eb98c32084ac8a384b075f6ab3b5396e6ee76b58ba452a8"
+      }
+    },
+    {
+      "path": "tools/check_upgrade.py",
+      "change": "modified",
+      "before": {
+        "bytes": 3194,
+        "sha256": "24d910e979a32e985052bc3fe69eaded95a03abfb7e00408ef67dd797b03e0fd"
+      },
+      "after": {
+        "bytes": 3194,
+        "sha256": "9adb5c708e1edd0d0011e42f5efae0b05e2f9280e1704d263f05d4f686d7af8e"
+      }
+    },
+    {
+      "path": "tools/performance-check-plan.json",
+      "change": "modified",
+      "before": {
+        "bytes": 2084,
+        "sha256": "4ed0e7e9388dfb6cb706e0ef0f50ff5893b36aa92cfae164aac024824680d9eb"
+      },
+      "after": {
+        "bytes": 2109,
+        "sha256": "d1d3d063b6b050c8c6921e13573a9c1594129885c967d9364027b1dd9698928b"
+      }
+    },
+    {
+      "path": "tools/recovery-check-plan.json",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 977,
+        "sha256": "e0d112e10bb6fefbff3427a902d1ee4a41913313dd68934a88f0d8cd37f855b6"
+      }
+    },
+    {
+      "path": "tools/required-check-plan.json",
+      "change": "modified",
+      "before": {
+        "bytes": 2491,
+        "sha256": "a6d102b7f4800f2754ef3c7109d1cdfff477d3ee277a7d233034001d07ae0096"
+      },
+      "after": {
+        "bytes": 2491,
+        "sha256": "e0ab0feb781eeefc9cad948ce4f9d07159adfd333f1bc3b77931550d6cd793d9"
+      }
+    },
+    {
+      "path": "빌드.ps1",
+      "change": "modified",
+      "before": {
+        "bytes": 1887,
+        "sha256": "e7d0761876adfc199991b956e0274838e531d928a33017dda15aba10e1865219"
+      },
+      "after": {
+        "bytes": 1887,
+        "sha256": "b62dd04c792bb2b51b922b227998883b8a4569857c8c8f2f025c88d70d1a2579"
+      }
+    },
+    {
+      "path": "빌드방법.txt",
+      "change": "modified",
+      "before": {
+        "bytes": 863,
+        "sha256": "87d83c8d4ecb20242e1e99194645ea7bf8e79eec1779f24aa60b3d927a52bb7f"
+      },
+      "after": {
+        "bytes": 898,
+        "sha256": "b7047cf68d0c4ac7830d145d342dc4f51e4262d01587d7151c8602d339013b00"
+      }
+    }
+  ]
+}

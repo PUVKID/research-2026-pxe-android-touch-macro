@@ -1,7 +1,7 @@
-C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat-4
-C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_10\android\android-sdk\emulator-2\emulator.exe
+.
+.\AppData\Local\Temp\NEX_Build_10\android\android-sdk\emulator-2\emulator.exe
 15
-C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_10\android\android-sdk\emulator-2\emulator.exe
+.\AppData\Local\Temp\NEX_Build_10\android\android-sdk\emulator-2\emulator.exe
 -avd
 PXE12
 -port

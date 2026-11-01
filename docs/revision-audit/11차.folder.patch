@@ -475,11 +475,7 @@
  plugins { id 'com.android.application' version '8.9.1' apply false }
 +// 검사 영수증에서 제외하는 작업 폴더 안에만 생성물을 둡니다.
 +allprojects { layout.buildDirectory = rootProject.layout.projectDirectory.dir("work/build/${project.name}") }
---- 10차/source/local.properties
-+++ 11차/source/local.properties
-@@ -1 +1 @@
--sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_10/android/android-sdk
-+sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_11/android/android-sdk--- 10차/source/tools/check_device.py
+--- 10차/source/tools/check_device.py
 +++ 11차/source/tools/check_device.py
 @@ -0,0 +1,21 @@
 +"""소유한 NEX12 검사 장치와 11차 설치를 확인한 뒤 기기 회귀 검사를 실행합니다."""
@@ -1175,7 +1171,7 @@
 +PXE 11차 · 1.1.0
  
 -프로젝트와 앱 이름을 PXE로 변경하고 전체 화면과 아이콘을 새로 디자인했습니다.
--저장 위치는 윤석님 요청에 따라 바탕화면의 매크로/10차입니다.
+-저장 위치는 관리자 요청에 따라 바탕화면의 매크로/10차입니다.
 +현재 9버전에서 자동 인식을 사용할 때 발생한 화면 정보 응답 지연을 수정한 버전입니다.
  
 -설치 파일

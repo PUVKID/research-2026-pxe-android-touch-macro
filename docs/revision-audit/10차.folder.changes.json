@@ -276,8 +276,8 @@
     "status": "수정",
     "before_bytes": 628,
     "after_bytes": 628,
-    "before_sha256": "00a53888578604a67a1aa128c73496615e5b73bf65c72c2294b6e9cc3dbb4707",
-    "after_sha256": "2f20bfd229d1ed1c9c8e95e91af500aaaab409ad0d1a1712ec9896811f59f1d1"
+    "before_sha256": "a59866edcbe73c41fa22609b5ab428c248a476ab483f130d0f98f3057dd725c8",
+    "after_sha256": "211c320acbacb9ab977133fd9017319af981efea253d682e07f88648076f790b"
   },
   {
     "path": "source/app/src/main/res/values/styles.xml",
@@ -286,14 +286,6 @@
     "after_bytes": 1866,
     "before_sha256": "90ac818b68915bb1fc789ca0fb7e58185af08798058c0c9c8478d7abfe5d339f",
     "after_sha256": "228c1774b30de85fdd7345567230a49eed750f2b3eafacca446b2214b8b09151"
-  },
-  {
-    "path": "source/local.properties",
-    "status": "수정",
-    "before_bytes": 76,
-    "after_bytes": 77,
-    "before_sha256": "c122ef21c4ecf99e9c6d75fafea42e85502a02d84d309133acc109b03153d9ff",
-    "after_sha256": "675a9d8113a118c3b6026d9288990cbc9db036a121832ff42e7ef4711daa7313"
   },
   {
     "path": "source/settings.gradle",
@@ -565,7 +557,7 @@
     "before_bytes": null,
     "after_bytes": 2013,
     "before_sha256": null,
-    "after_sha256": "3f31eec35402349feaa5b3ce4231fb2eabe3306516a85e6f51ac040cdbfce87b"
+    "after_sha256": "a8369314054517214f78f278908ddc74d7a44a620ac7d739bb825a73b46555d8"
   },
   {
     "path": "사용법.txt",

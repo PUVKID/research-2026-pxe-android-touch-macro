@@ -17,7 +17,7 @@ TEXT_TAP은 최초 탐지→두 번째 OCR 재확인→터치 직전 같은 대�
 MainActivity의 수리4 기능 조건과 부모 디자인 작업자의 Ui/MainActivity 시각 변경은 보존했습니다. 수리7에서는 MacroService와 해당 OCR 검사 외 제품을 추가 수정하지 않았습니다.
 
 실제 검사
-cwd D:\2026\PXE Project\13차\source
+cwd .\13차\source
 빌드: 빌드.ps1, 종료0. 휴대전화·PC release 및 실제 Android 검사 APK를 생성했습니다.
 Gradle 단위: XML12클래스80개, 실패0·오류0. 별도 순수 회귀80개 통과. lint 오류0·경고0.
 APK: 앱ID/PXE/13·1.3.0/기존서명/ABI/CRC 통과. 원본12차80개 해시 보존 통과.

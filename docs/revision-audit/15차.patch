@@ -25,7 +25,7 @@
 +.\gradlew.bat :app:assembleRelease :app:assembleReleaseAndroidTest -PNEX_PC
 +```
 +
-+개인 키와 key.properties는 공개하지 않습니다. NEX_SIGNING_DIR가 유효한 개인 서명 폴더를 가리키지 않으면 개발 구성은 debug 서명을 선택하므로 기존 설치본 업데이트용으로 사용하지 않습니다. 납품 빌드.ps1은 프로젝트 소유의 D:/2026/PXE15Build 전용 연결과 기존 개인 키 존재를 확인합니다. PC는 ARM64/x86_64, 휴대전화는 ARM64를 포함합니다.
++개인 키와 key.properties는 공개하지 않습니다. NEX_SIGNING_DIR가 유효한 개인 서명 폴더를 가리키지 않으면 개발 구성은 debug 서명을 선택하므로 기존 설치본 업데이트용으로 사용하지 않습니다. 납품 빌드.ps1은 프로젝트 소유의 . 전용 연결과 기존 개인 키 존재를 확인합니다. PC는 ARM64/x86_64, 휴대전화는 ARM64를 포함합니다.
 +
 +## 검사 범위
 +
@@ -730,7 +730,7 @@
 --- 14차/app/src/main/res/values/strings.xml
 +++ 15차/app/src/main/res/values/strings.xml
 @@ -1 +1 @@
--<resources><string name="app_name">PXE</string><string name="service_description">윤석님이 직접 만든 동작을 실행합니다. 화면 글자 읽기, 기기 내 한글 OCR, 좌표 터치, 스와이프와 뒤로가기에 접근성을 사용합니다. 화면이나 입력 내용은 서버로 전송하지 않습니다. 화면 위 정지 버튼으로 언제든 멈출 수 있습니다.</string><string name="test_taps">성공 횟수: %1$d</string><string name="ocr_taps">OCR 성공 횟수: %1$d</string><string name="nex_control_status">%1$s · %2$s\n%3$s</string><string name="nex_slider">%1$s · %2$d</string></resources>+<resources><string name="app_name">PXE</string><string name="service_description">윤석님이 직접 만든 동작을 실행합니다. 화면 글자 읽기, 기기 내 한글 OCR, 좌표 터치, 스와이프와 뒤로가기에 접근성을 사용합니다. 화면이나 입력 내용은 서버로 전송하지 않습니다. 화면 위 정지 버튼으로 언제든 멈출 수 있습니다.</string><string name="test_taps">성공 횟수: %1$d</string><string name="ocr_taps">OCR 성공 횟수: %1$d</string><string name="nex_control_status">%1$s · %2$s\n%3$s</string><string name="nex_slider">%1$s · %2$d</string><string name="pxe_section_show">%1$s 보기</string><string name="pxe_section_hide">%1$s 접기</string></resources>
+-<resources><string name="app_name">PXE</string><string name="service_description">관리자이 직접 만든 동작을 실행합니다. 화면 글자 읽기, 기기 내 한글 OCR, 좌표 터치, 스와이프와 뒤로가기에 접근성을 사용합니다. 화면이나 입력 내용은 서버로 전송하지 않습니다. 화면 위 정지 버튼으로 언제든 멈출 수 있습니다.</string><string name="test_taps">성공 횟수: %1$d</string><string name="ocr_taps">OCR 성공 횟수: %1$d</string><string name="nex_control_status">%1$s · %2$s\n%3$s</string><string name="nex_slider">%1$s · %2$d</string></resources>+<resources><string name="app_name">PXE</string><string name="service_description">관리자이 직접 만든 동작을 실행합니다. 화면 글자 읽기, 기기 내 한글 OCR, 좌표 터치, 스와이프와 뒤로가기에 접근성을 사용합니다. 화면이나 입력 내용은 서버로 전송하지 않습니다. 화면 위 정지 버튼으로 언제든 멈출 수 있습니다.</string><string name="test_taps">성공 횟수: %1$d</string><string name="ocr_taps">OCR 성공 횟수: %1$d</string><string name="nex_control_status">%1$s · %2$s\n%3$s</string><string name="nex_slider">%1$s · %2$d</string><string name="pxe_section_show">%1$s 보기</string><string name="pxe_section_hide">%1$s 접기</string></resources>
 --- 14차/app/src/test/java/kr/yunseok/touchmacro/CapturePacerTest.java
 +++ 15차/app/src/test/java/kr/yunseok/touchmacro/CapturePacerTest.java
 @@ -0,0 +1,49 @@
@@ -810,7 +810,7 @@
 +2. 엔진 deep: MacroService/CapturePacer 및 관련 엔진 테스트. 원인별 RED 후 최소 수정. UI와 모델 계약은 부모와 조율.
 +3. UI build: MainActivity/Ui/SetupWizard/SetupCoach 및 직접 UI 검사. 기본/고급 구조와 방식 범위 설명. 엔진 파일은 수정하지 않는다.
 +4. 부모: 통합 빌드와 구현 검증, 소스 동결. 별도 verifier Sol/high가 요구 사항과 실제 전체 검사를 독립 확인한다.
-+5. 부모: PC/휴대전화 APK를 15차에 납품. 연결된 PUVKID/PXE-Touch-Macro-Project의 공개 소스 구조를 확인해 코드/검사/변경 기록만 정상 커밋/푸시한다. 비밀 키/개인 프로필/개인 로그/빌드 캐시/전역 지침은 공개하지 않는다.
++5. 부모: PC/휴대전화 APK를 15차에 납품. 연결된 제작자/PXE-Touch-Macro-Project의 공개 소스 구조를 확인해 코드/검사/변경 기록만 정상 커밋/푸시한다. 비밀 키/개인 프로필/개인 로그/빌드 캐시/전역 지침은 공개하지 않는다.
 +
 +## 검증 환경과 시간
 +실제 사용자 블루스택과 매크로는 조작하지 않는다. 복사한 소유 PXE15 Android31 장치에서 검증한다. 기존 필수 검사 계획 총 720초/개별 제한 유지. 신규 검사 배치는 별도 제한을 명시하고 기존 검사와 중복 합산하지 않는다. 333ms 공식 AOSP 상수는 OS 구현 참고이며 블루스택에 동일 성능을 보장하는 근거가 아니다.
@@ -835,7 +835,8 @@
 --- 14차/local.properties
 +++ 15차/local.properties
 @@ -1 +1 @@
--sdk.dir=D:/PXE14Build/android/android-sdk+sdk.dir=D:/2026/PXE15Build/android/android-sdk--- 14차/tools/check_artifacts.py
+-sdk.dir=D:/PXE14Build/android/android-sdk+# Android SDK는 ANDROID_HOME 또는 Android Studio가 생성한 이 기기의 sdk.dir로 설정합니다.
+--- 14차/tools/check_artifacts.py
 +++ 15차/tools/check_artifacts.py
 @@ -10,7 +10,7 @@
  
@@ -1288,11 +1289,11 @@
 +PXE 1.5.0 · 15차 소스 빌드
  
 -source의 빌드.ps1은 D:/PXE14Build 전용 연결로 JDK 17 / Gradle 8.13 / Android SDK 35를 사용합니다.
-+source의 빌드.ps1은 D:/2026/PXE15Build 전용 연결로 JDK 17 / Gradle 8.13 / Android SDK 35를 사용합니다.
++source의 빌드.ps1은 . 전용 연결로 JDK 17 / Gradle 8.13 / Android SDK 35를 사용합니다.
  기존 개인 서명 키와 앱 ID를 유지합니다. 키는 소스에 포함하지 않습니다.
  휴대전화용 ARM64 빌드를 먼저 저장하고 PC용 ARM64/x86_64 APK와 기기 검사 APK를 빌드합니다.
--납품 위치: D:/2026/PXE Project/14차
-+납품 위치: D:/2026/PXE Project/15차
+-납품 위치: ./14차
++납품 위치: ./15차
  
  검사: :app:testDebugUnitTest :app:lintDebug
  순수 모델: python -B -X utf8 tools/check_regression.py

@@ -1,4 +1,4 @@
-C:\Users\PUVKID
+.
 D:\PXE13Build\android\android-sdk\emulator-2\emulator.exe
 17
 D:\PXE13Build\android\android-sdk\emulator-2\emulator.exe

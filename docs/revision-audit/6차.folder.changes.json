@@ -216,14 +216,6 @@
     "after_sha256": "73f4c588903719d444c7ea3cb089758b15b3e35737c80bf777b671cf08979f84"
   },
   {
-    "path": "source/local.properties",
-    "status": "수정",
-    "before_bytes": 74,
-    "after_bytes": 74,
-    "before_sha256": "8cba67ca8b5f6368e70c960879afb88ac0e78ec13f0d7ecdf67f882f3976735e",
-    "after_sha256": "0209e7ab4bd293beab61da07397ca5f44ea9072079b0361467e5dbf56b27a91b"
-  },
-  {
     "path": "source/빌드.ps1",
     "status": "수정",
     "before_bytes": 1528,
@@ -348,7 +340,7 @@
     "status": "수정",
     "before_bytes": 3580,
     "after_bytes": 5112,
-    "before_sha256": "32eef87f2981994f2b7d6c831b5146f230cfc301475053946157b23d4f512ad3",
+    "before_sha256": "6ad0c0843861312b28f1cdbab4bff8831f3c8e325ecfee447511f395e7246cb2",
     "after_sha256": "fbcf078d9bb16e04573e4cb0180ed20d667b53a6cc1f806ffe69d3e5d55f1e90"
   }
 ]

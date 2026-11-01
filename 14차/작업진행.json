@@ -1,7 +1,7 @@
 {
   "updated_kst": "2026-10-26T03:08:21.4876038+09:00",
-  "project": "D:/2026/PXE Project",
-  "source": "D:/2026/PXE Project/14차/source",
+  "project": ".",
+  "source": "./14차/source",
   "session": "01a131ad-d167-7873-9aa6-4d81ff131c60",
   "task": "pxe14-redesign-20261026",
   "mode": "reassess",
@@ -22,7 +22,7 @@
   ],
   "bridge": "D:/PXE14Build → 프로젝트work/build14. source14/tools공유/android SDK/signing junction",
   "owned_device": "소유 PXE14의 이름을 ADBserver5043/emulator5598에서 재확인한 뒤 emu kill 종료성공. 사용자 플레이어 조작0",
-  "python": "C:/Users/PUVKID/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe -B -X utf8",
+  "python": "./.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe -B -X utf8",
   "tests": "master46:upgrade2/UI6/new4/core20/old14. total720 유지; central3gate75 유지",
   "engine": "MacroService에무한재확인null재대기+TEXT_NOT_FOUND설정진단3행추가. 이전13수리7대상앱보호유지",
   "baseline": "14차/13차_보존기준.json 98개(소스96+두APK),이전13변경금지",

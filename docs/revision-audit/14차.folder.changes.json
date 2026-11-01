@@ -2,18 +2,18 @@
   {
     "path": "12차_보존기준.json",
     "status": "이전만 존재",
-    "before_bytes": 17978,
+    "before_bytes": 16378,
     "after_bytes": null,
-    "before_sha256": "2631b060298d009b339a1d892db82d815c8d9e256d786ae52f1897b132badb9c",
+    "before_sha256": "318746555da0e2148049c4ab3490e1b610e367c5c6bf58c6ccba831b7e262ba6",
     "after_sha256": null
   },
   {
     "path": "13차_보존기준.json",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 21722,
+    "after_bytes": 19762,
     "before_sha256": null,
-    "after_sha256": "8c34e2229456f6f74dcefceb4ee88157d4f6b5a9b523b86fc909e596c2dd1bd9"
+    "after_sha256": "194d30d0f7908fa45a6587bc6e690c053c447c22b61d172a9ac724a501b117d9"
   },
   {
     "path": "source/app/build.gradle",
@@ -347,9 +347,9 @@
     "path": "source/빌드방법.txt",
     "status": "수정",
     "before_bytes": 1619,
-    "after_bytes": 907,
+    "after_bytes": 889,
     "before_sha256": "72534e909dceafdd8aa050e210965215f855dc81cae4bdd339288124ca438690",
-    "after_sha256": "8fd82c4e55124b7331ed6a29d09ecdefcf2249dca111d54da73380369a12ae61"
+    "after_sha256": "924d9b42ffc6abc798f294927bcfbe6e5f82a0c69b702d92d4e28164a9accb1b"
   },
   {
     "path": "검사명세.json",
@@ -378,9 +378,9 @@
   {
     "path": "검증결과.txt",
     "status": "수정",
-    "before_bytes": 6083,
+    "before_bytes": 6065,
     "after_bytes": 3893,
-    "before_sha256": "a255e55e1719fe64b83486873e174db6c8f30868e1e43f83962eb0160ee899d0",
+    "before_sha256": "a3f66c0a6dcf0741e8a2e01dc112815bb56edf727204342b48319d1cbb81caf3",
     "after_sha256": "7ccbf7ab4ef0b4d36e15f2b17ce63297ec130cfc146985e67730d3adf9e2c0a4"
   },
   {
@@ -402,25 +402,25 @@
   {
     "path": "디자인점검.md",
     "status": "이전만 존재",
-    "before_bytes": 2089,
+    "before_bytes": 2219,
     "after_bytes": null,
-    "before_sha256": "24ea4380803d40c36a70249153143b7c0560e13cf965b91367f4a1c427dac30b",
+    "before_sha256": "37ebfb3727959248da20be064c122e5e340dc70be15edb1af94a7b6cd5f99e73",
     "after_sha256": null
   },
   {
     "path": "디자인점검결과.txt",
     "status": "이전만 존재",
-    "before_bytes": 4006,
+    "before_bytes": 3988,
     "after_bytes": null,
-    "before_sha256": "671aaaefb652d620fdd186781ff564c1ab6a76c9f675f34b505559e363a6efcc",
+    "before_sha256": "e09a57da43244a9e9886f3337e513d69ef3895eaff1c981919a40a1a5ba91534",
     "after_sha256": null
   },
   {
     "path": "디자인점검결과_초기보고.txt",
     "status": "이전만 존재",
-    "before_bytes": 3740,
+    "before_bytes": 3722,
     "after_bytes": null,
-    "before_sha256": "a4c1ce01b03d35b481d4d616ea9b25597bb2745dcdb060030c5843a57a543023",
+    "before_sha256": "a376a38476631d48164968c97e00941b5e13b1c0f595a4aad7f99d7e6a601f4f",
     "after_sha256": null
   },
   {
@@ -442,9 +442,9 @@
   {
     "path": "엔진수리_직접검사보고.txt",
     "status": "이전만 존재",
-    "before_bytes": 5511,
+    "before_bytes": 5493,
     "after_bytes": null,
-    "before_sha256": "56401c73174b9a683442bf6fddfc3fc1dac50996eec795e6d41c211a1edc7477",
+    "before_sha256": "5c076fb0d265887897eeb52b7a08c54b95bc9d736ddabf287a973144f56c7031",
     "after_sha256": null
   },
   {
@@ -458,10 +458,10 @@
   {
     "path": "작업진행.json",
     "status": "수정",
-    "before_bytes": 3436,
-    "after_bytes": 2238,
-    "before_sha256": "4955c0794c373818d8d0effd806f92963546b2aba6c98d82e7fb36fd378acc99",
-    "after_sha256": "7ae62419b1c069a8186afdd4f2d18cc7808ca9bddce396f1a54c77ea21b7586e"
+    "before_bytes": 3380,
+    "after_bytes": 2188,
+    "before_sha256": "bc0a39272760d5ded7e16c63874e581114b0eadaad0faa11bd42a0fb8c3a5b31",
+    "after_sha256": "1ebed98b1051256adcc9b4bfa8540aa1e5bdb0226c3fa5d6580543e703b6c260"
   },
   {
     "path": "준비_실패기록.json",

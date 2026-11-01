@@ -33,10 +33,10 @@ PASS: 보존된 화면 6장(5~10회)의 표시 내용과 점검결과.txt 관측
 OS 응답 및 CPU·RAM 표본은 보고 내용을 검토했을 뿐 독립 재측정하지 않았습니다.
 
 직접 실행한 검사와 위치
-실행 위치: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat-4
+실행 위치: .
 1. PowerShell Get-Content -LiteralPath <AGENTS.md 및 점검결과.txt> -Raw -Encoding UTF8와 Get-ChildItem으로 지침·보고서·파일 목록 읽기. 종료코드0.
 2. view_image 요청: 화면_05.png, 화면_06.png, 화면_07.png, 화면_08.png, 화면_09.png, 화면_10.png. 각각 성공, 직접 판독6장. 명령 프로세스가 아니므로 종료코드 해당 없음.
-3. Python 실제 argv: ["C:\Users\PUVKID\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe", "-B", "-X", "utf8", "-"]
+3. Python 실제 argv: [".\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe", "-B", "-X", "utf8", "-"]
    PowerShell here-string으로 표준입력 전달. Path.read_bytes와 decode('utf-8', errors='strict'), 대체문자 검사, 필수 한계 문구 검사, SHA256, PNG 개수6·파일명05~10·서명·IHDR720x1280·모든 청크CRC·IEND와 끝 위치를 assert로 검사. 종료코드0.
    검사 수: 화면 대조6장 + 보고서 UTF8/필수 한계1건 + PNG 구조/해시6건 =13건.
    보고서 UTF8 엄격 디코딩 PASS, U+FFFD 대체문자0개, 파일5676바이트.

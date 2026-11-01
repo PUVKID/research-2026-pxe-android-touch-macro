@@ -112,7 +112,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
 > Task :app:assembleDebugAndroidTest
 
-[Incubating] Problems report is available at: file:///C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_11/source/work/build/PXE/reports/problems/problems-report.html
+[Incubating] Problems report is available at: file:///./AppData/Local/Temp/NEX_Build_11/source/work/build/PXE/reports/problems/problems-report.html
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
 

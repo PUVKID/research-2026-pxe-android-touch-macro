@@ -908,7 +908,8 @@
 --- 12차/local.properties
 +++ 13차/local.properties
 @@ -1 +1 @@
--sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_12/android/android-sdk+sdk.dir=D:/PXE13Build/android/android-sdk--- 12차/tools/check_artifacts.py
+-# Android SDK는 ANDROID_HOME 또는 Android Studio가 생성한 이 기기의 sdk.dir로 설정합니다.
++sdk.dir=D:/PXE13Build/android/android-sdk--- 12차/tools/check_artifacts.py
 +++ 13차/tools/check_artifacts.py
 @@ -0,0 +1,77 @@
 +"""납품 APK와 이전 차수 보존, 앱 이름·버전·서명을 직접 확인합니다."""

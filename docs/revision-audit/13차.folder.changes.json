@@ -2,18 +2,18 @@
   {
     "path": "11차_보존기준.json",
     "status": "이전만 존재",
-    "before_bytes": 17480,
+    "before_bytes": 14600,
     "after_bytes": null,
-    "before_sha256": "1fc9b6237629d66318529b6f7137ef181280b29fe7593ff537b169249f47c5e8",
+    "before_sha256": "2e11ff6397c01459eb44e63d714d9c9ff29c9c1d425a4b599a2ba11b4ea3c59b",
     "after_sha256": null
   },
   {
     "path": "12차_보존기준.json",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 17978,
+    "after_bytes": 16378,
     "before_sha256": null,
-    "after_sha256": "2631b060298d009b339a1d892db82d815c8d9e256d786ae52f1897b132badb9c"
+    "after_sha256": "318746555da0e2148049c4ab3490e1b610e367c5c6bf58c6ccba831b7e262ba6"
   },
   {
     "path": "source/app/build.gradle",
@@ -130,9 +130,9 @@
   {
     "path": "source/local.properties",
     "status": "수정",
-    "before_bytes": 75,
+    "before_bytes": 107,
     "after_bytes": 41,
-    "before_sha256": "d23285ef513f88f65172465e32bcbf7a5bb48a45c2193f5c0db3d1e35a1bee5f",
+    "before_sha256": "7d4eaded4e2af23a6fb09517f84d94686c2e8740b8b6d0889c993a4ffef72ac1",
     "after_sha256": "dd13148c7897f83faa1fd5760225035c9fc66ccb6945c86b0af7eace544bf335"
   },
   {
@@ -195,16 +195,16 @@
     "path": "검증결과.txt",
     "status": "수정",
     "before_bytes": 2246,
-    "after_bytes": 6083,
+    "after_bytes": 6065,
     "before_sha256": "2fcce0228d98ab1a6635d90ca9cb64e30856ae1b36f8be01f582d31ce45787e7",
-    "after_sha256": "a255e55e1719fe64b83486873e174db6c8f30868e1e43f83962eb0160ee899d0"
+    "after_sha256": "a3f66c0a6dcf0741e8a2e01dc112815bb56edf727204342b48319d1cbb81caf3"
   },
   {
     "path": "검증결과_초기보고.txt",
     "status": "이전만 존재",
-    "before_bytes": 1627,
+    "before_bytes": 1487,
     "after_bytes": null,
-    "before_sha256": "3e7e6c332255b5803c6c12c5ab9575c7a1aeb480dc35a719795e42c321bab47b",
+    "before_sha256": "d7da774686f4a64ff3078e325d19524544209a87abcf3ea31ecfde6df322d1a5",
     "after_sha256": null
   },
   {
@@ -219,32 +219,32 @@
     "path": "디자인점검.md",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 2089,
+    "after_bytes": 2219,
     "before_sha256": null,
-    "after_sha256": "24ea4380803d40c36a70249153143b7c0560e13cf965b91367f4a1c427dac30b"
+    "after_sha256": "37ebfb3727959248da20be064c122e5e340dc70be15edb1af94a7b6cd5f99e73"
   },
   {
     "path": "디자인점검결과.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 4006,
+    "after_bytes": 3988,
     "before_sha256": null,
-    "after_sha256": "671aaaefb652d620fdd186781ff564c1ab6a76c9f675f34b505559e363a6efcc"
+    "after_sha256": "e09a57da43244a9e9886f3337e513d69ef3895eaff1c981919a40a1a5ba91534"
   },
   {
     "path": "디자인점검결과_초기보고.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 3740,
+    "after_bytes": 3722,
     "before_sha256": null,
-    "after_sha256": "a4c1ce01b03d35b481d4d616ea9b25597bb2745dcdb060030c5843a57a543023"
+    "after_sha256": "a376a38476631d48164968c97e00941b5e13b1c0f595a4aad7f99d7e6a601f4f"
   },
   {
     "path": "라우팅기록.txt",
     "status": "이전만 존재",
-    "before_bytes": 15290,
+    "before_bytes": 15262,
     "after_bytes": null,
-    "before_sha256": "b4235fe6abb13ebc32d20be197206a8fb956f2c0cb88514469d19a86bdb74c6f",
+    "before_sha256": "59a5f877e0fd5fae26e00a7dbfe125c814be92ff62810fc1632b8e2351510e1f",
     "after_sha256": null
   },
   {
@@ -259,9 +259,9 @@
     "path": "엔진수리_직접검사보고.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 5511,
+    "after_bytes": 5493,
     "before_sha256": null,
-    "after_sha256": "56401c73174b9a683442bf6fddfc3fc1dac50996eec795e6d41c211a1edc7477"
+    "after_sha256": "5c076fb0d265887897eeb52b7a08c54b95bc9d736ddabf287a973144f56c7031"
   },
   {
     "path": "요구사항.txt",
@@ -275,8 +275,8 @@
     "path": "작업진행.json",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 3436,
+    "after_bytes": 3380,
     "before_sha256": null,
-    "after_sha256": "4955c0794c373818d8d0effd806f92963546b2aba6c98d82e7fb36fd378acc99"
+    "after_sha256": "bc0a39272760d5ded7e16c63874e581114b0eadaad0faa11bd42a0fb8c3a5b31"
   }
 ]

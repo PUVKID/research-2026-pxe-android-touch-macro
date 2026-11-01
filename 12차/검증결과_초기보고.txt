@@ -10,14 +10,14 @@ PXE 12차 독립 검증: FAIL
 {
   "at": "2026-10-21T02:15:18.136769+09:00",
   "argv": [
-    "C:\\Users\\PUVKID\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    ".\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
     "-B",
     "-X",
     "utf8",
-    "C:\\Users\\PUVKID\\.codex\\tools\\routing_verification.py",
+    ".\\.codex\\tools\\routing_verification.py",
     "verify",
     "--root",
-    "C:\\Users\\PUVKID\\Desktop\\매크로\\12차\\source",
+    ".\\12차\\source",
     "--session",
     "01a131ad-d167-7873-9aa6-4d81ff131c60",
     "--task",
@@ -25,9 +25,9 @@ PXE 12차 독립 검증: FAIL
     "--agent-id",
     "/root/pxe12_verifier",
     "--review",
-    "C:\\Users\\PUVKID\\Desktop\\매크로\\12차\\source\\evidence\\review-pxe12.json"
+    ".\\12차\\source\\evidence\\review-pxe12.json"
   ],
-  "cwd": "C:\\Users\\PUVKID\\Desktop\\매크로\\12차\\source",
+  "cwd": ".\\12차\\source",
   "exit_code": 1,
   "source_changes": 0,
   "repair_used": 1,

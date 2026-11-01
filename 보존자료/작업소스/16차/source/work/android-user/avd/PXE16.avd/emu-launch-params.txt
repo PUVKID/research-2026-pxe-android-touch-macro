@@ -1,7 +1,7 @@
-C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat-4
-D:\2026\PXE16Build\android\android-sdk\emulator-2\emulator.exe
+.
+.\android\android-sdk\emulator-2\emulator.exe
 16
-D:\2026\PXE16Build\android\android-sdk\emulator-2\emulator.exe
+.\android\android-sdk\emulator-2\emulator.exe
 -avd
 PXE16
 -port

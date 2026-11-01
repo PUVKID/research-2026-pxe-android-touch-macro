@@ -4,7 +4,7 @@
 작업: pxe-error-record-readonly-20261021
 역할: verifier / gpt-6.1-sol / high (부모 배정 요청값). 서버 런타임 모델 신원 미확인. 추가 작업자 없음. repair_used=0/1.
 
-최신 C:\Users\PUVKID\.codex\AGENTS.md와 11차/source/ROUTING-LESSONS.md를 직접 읽었습니다. 11차/source/docs는 존재하지 않습니다. 중앙 프로젝트 활성화·검증 영수증을 생성하지 않은 읽기 전용 자료 검토입니다.
+최신 .\.codex\AGENTS.md와 11차/source/ROUTING-LESSONS.md를 직접 읽었습니다. 11차/source/docs는 존재하지 않습니다. 중앙 프로젝트 활성화·검증 영수증을 생성하지 않은 읽기 전용 자료 검토입니다.
 
 요구별 대조 8항목:
 1. 후보1: MacroService.java:319~322의 recognizer.process 이후 await(...,12000,...)에서 '한글 OCR 인식 응답 시간이 초과되었습니다'. 일치합니다. 이 시간은 일시정지 시간 제외 await 기준이며 실제 정지 시각의 보증이 아닙니다.
@@ -21,7 +21,7 @@
 직접 검사:
 - PowerShell 읽기 명령 3회: 최신 AGENTS/폴더 목록/후보표·부모판정 Get-Content, ROUTING-LESSONS Get-Content 및 rg -n 오류/보존 경로 검색, 두 Java 관련 행 Get-Content. 모두 종료 코드 0. 출력 생략 없음.
 - PowerShell 엄격 검사 1회: [System.Text.UTF8Encoding]::new($false,$true).GetString([System.IO.File]::ReadAllBytes(...)), U+FFFD 포함 여부, Get-FileHash -Algorithm SHA256. 6파일 모두 통과, 대체문자 0, 종료 코드 0. 출력 생략 없음.
-- 실행 위치: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat-4
+- 실행 위치: .
 - 읽기 검사 명령 4회/검사파일 6개/요구 대조 8항목. 컴파일·단위검사·lint·실기기 동작 검사는 수행하지 않았습니다. 읽기 전용 후보표 대조이므로 필요하지 않은 구현 검사를 실행하지 않았습니다.
 
 확인 SHA-256:

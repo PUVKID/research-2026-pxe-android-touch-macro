@@ -2762,7 +2762,7 @@
 -<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48"><path android:fillColor="#2856D8" android:pathData="M0,0H48V48H0Z"/><path android:fillColor="#FFFFFF" android:pathData="M11,35V13H16L31,28V13H37V35H32L17,20V35Z"/></vector>--- 기본/NEXSource2/app/src/main/res/values/strings.xml
 +++ 1차/NEXSource2/app/src/main/res/values/strings.xml
 @@ -1 +0,0 @@
--<resources><string name="app_name">NEX</string><string name="service_description">윤석님이 직접 만든 동작을 실행합니다. 화면 글자 읽기, 기기 내 한글 OCR, 좌표 터치, 스와이프와 뒤로가기에 접근성을 사용합니다. 화면이나 입력 내용은 서버로 전송하지 않습니다. 화면 위 정지 버튼으로 언제든 멈출 수 있습니다.</string><string name="test_taps">성공 횟수: %1$d</string><string name="ocr_taps">OCR 성공 횟수: %1$d</string><string name="nex_control_status">%1$s · %2$s\n%3$s</string><string name="nex_slider">%1$s · %2$d</string></resources>--- 기본/NEXSource2/app/src/main/res/values/styles.xml
+-<resources><string name="app_name">NEX</string><string name="service_description">관리자이 직접 만든 동작을 실행합니다. 화면 글자 읽기, 기기 내 한글 OCR, 좌표 터치, 스와이프와 뒤로가기에 접근성을 사용합니다. 화면이나 입력 내용은 서버로 전송하지 않습니다. 화면 위 정지 버튼으로 언제든 멈출 수 있습니다.</string><string name="test_taps">성공 횟수: %1$d</string><string name="ocr_taps">OCR 성공 횟수: %1$d</string><string name="nex_control_status">%1$s · %2$s\n%3$s</string><string name="nex_slider">%1$s · %2$d</string></resources>--- 기본/NEXSource2/app/src/main/res/values/styles.xml
 +++ 1차/NEXSource2/app/src/main/res/values/styles.xml
 @@ -1 +0,0 @@
 -<resources><style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar"><item name="android:fontFamily">@font/nanum_gothic_bold</item><item name="android:windowLightStatusBar">true</item><item name="android:statusBarColor">#F1F5FB</item><item name="android:navigationBarColor">#F1F5FB</item><item name="android:colorAccent">#2856D8</item></style><style name="NexDark" parent="android:style/Theme.Material.NoActionBar"><item name="android:fontFamily">@font/nanum_gothic_bold</item><item name="android:windowLightStatusBar">false</item><item name="android:statusBarColor">#0C1220</item><item name="android:navigationBarColor">#0C1220</item><item name="android:colorAccent">#93ACFF</item></style></resources>--- 기본/NEXSource2/app/src/main/res/xml/accessibility.xml
@@ -3199,7 +3199,7 @@
 --- 기본/NEXSource2/local.properties
 +++ 1차/NEXSource2/local.properties
 @@ -1 +0,0 @@
--sdk.dir=D:/2026/PXE Project/코드/NEXTools/android-sdk
+-# Android SDK는 ANDROID_HOME 또는 Android Studio가 생성한 이 기기의 sdk.dir로 설정합니다.
 --- 기본/NEXSource2/settings.gradle
 +++ 1차/NEXSource2/settings.gradle
 @@ -1,4 +0,0 @@
@@ -3215,16 +3215,16 @@
 -app 소스 패키지는 1차와 동일하며 앱 이름은 NEX, versionCode는 2입니다.
 -
 -권장 경로
--D:\2026\PXE Project\2차\source
+-.\2차\source
 -SDK는 local.properties의 sdk.dir로 지정합니다.
 -work/signing의 개인 키를 보관해야 1차/2차 위에 업데이트할 수 있습니다.
 -
 -현재 PC의 경로 별칭
 -NEXSource2, NEXTools, NEXSigning, NEXReference는 한글 경로를 처리하지 못하는 일부 Android 도구를 위한 연결입니다. 실제 파일은 매크로 폴더 안에 있습니다.
 -PowerShell에서:
--$env:JAVA_HOME='D:\2026\PXE Project\work\tools\jdk-17.0.20.1+1'
--$env:NEX_SIGNING_DIR='D:/2026/PXE Project/코드/NEXSigning'
--D:\2026\PXE Project\work\tools\gradle-8.13\bin\gradle.bat :app:assembleRelease :app:testDebugUnitTest :app:lintDebug
+-$env:JAVA_HOME='.\work\tools\jdk-17.0.20.1+1'
+-$env:NEX_SIGNING_DIR='./코드/NEXSigning'
+-.\work\tools\gradle-8.13\bin\gradle.bat :app:assembleRelease :app:testDebugUnitTest :app:lintDebug
 -
 -다른 PC
 -Java 17, SDK 35를 설치하고 local.properties의 SDK 경로를 수정하세요.
@@ -3622,7 +3622,7 @@
 --- 기본/NEXSource3/local.properties
 +++ 1차/NEXSource3/local.properties
 @@ -1 +0,0 @@
--sdk.dir=D:/2026/PXE Project/코드/NEXTools/android-sdk
+-# Android SDK는 ANDROID_HOME 또는 Android Studio가 생성한 이 기기의 sdk.dir로 설정합니다.
 --- 기본/NEXSource3/settings.gradle
 +++ 1차/NEXSource3/settings.gradle
 @@ -1,4 +0,0 @@
@@ -3638,16 +3638,16 @@
 -app 소스 패키지는 1차와 동일하며 앱 이름은 NEX, versionCode는 2입니다.
 -
 -권장 경로
--D:\2026\PXE Project\2차\source
+-.\2차\source
 -SDK는 local.properties의 sdk.dir로 지정합니다.
 -work/signing의 개인 키를 보관해야 1차/2차 위에 업데이트할 수 있습니다.
 -
 -현재 PC의 경로 별칭
 -NEXSource2, NEXTools, NEXSigning, NEXReference는 한글 경로를 처리하지 못하는 일부 Android 도구를 위한 연결입니다. 실제 파일은 매크로 폴더 안에 있습니다.
 -PowerShell에서:
--$env:JAVA_HOME='D:\2026\PXE Project\work\tools\jdk-17.0.20.1+1'
--$env:NEX_SIGNING_DIR='D:/2026/PXE Project/코드/NEXSigning'
--D:\2026\PXE Project\work\tools\gradle-8.13\bin\gradle.bat :app:assembleRelease :app:testDebugUnitTest :app:lintDebug
+-$env:JAVA_HOME='.\work\tools\jdk-17.0.20.1+1'
+-$env:NEX_SIGNING_DIR='./코드/NEXSigning'
+-.\work\tools\gradle-8.13\bin\gradle.bat :app:assembleRelease :app:testDebugUnitTest :app:lintDebug
 -
 -다른 PC
 -Java 17, SDK 35를 설치하고 local.properties의 SDK 경로를 수정하세요.
@@ -3666,7 +3666,7 @@
 +++ 1차/NEXTools/avd/NEX12.ini
 @@ -1,3 +0,0 @@
 -avd.ini.encoding=UTF-8
--path=C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_10\android\avd\Note12
+-path=.\AppData\Local\Temp\NEX_Build_10\android\avd\Note12
 -target=android-31
 --- 기본/NEXTools/avd/Note12/config.ini
 +++ 1차/NEXTools/avd/Note12/config.ini
@@ -3852,7 +3852,7 @@
 -hw.audioOutput = true
 -hw.sdCard = false
 -disk.cachePartition = true
--disk.cachePartition.path = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\android\avd\Note12\cache.img
+-disk.cachePartition.path = .\AppData\Local\Temp\NEX_Build_12\android\avd\Note12\cache.img
 -disk.cachePartition.size = 66m
 -test.quitAfterBootTimeOut = -1
 -test.delayAdbTillBootComplete = 0
@@ -3936,17 +3936,17 @@
 -hw.sensors.heading = false
 -hw.useext4 = true
 -hw.device.name = pixel_5
--kernel.path = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\android\android-sdk\system-images\android-31\default\x86_64\\kernel-ranchu
+-kernel.path = .\AppData\Local\Temp\NEX_Build_12\android\android-sdk\system-images\android-31\default\x86_64\\kernel-ranchu
 -kernel.newDeviceNaming = yes
 -kernel.supportsYaffs2 = no
--disk.ramdisk.path = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\android\android-sdk\system-images\android-31\default\x86_64\\ramdisk.img
--disk.systemPartition.initPath = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\android\android-sdk\system-images\android-31\default\x86_64\\system.img
+-disk.ramdisk.path = .\AppData\Local\Temp\NEX_Build_12\android\android-sdk\system-images\android-31\default\x86_64\\ramdisk.img
+-disk.systemPartition.initPath = .\AppData\Local\Temp\NEX_Build_12\android\android-sdk\system-images\android-31\default\x86_64\\system.img
 -disk.systemPartition.size = 4107m
--disk.vendorPartition.initPath = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\android\android-sdk\system-images\android-31\default\x86_64\\vendor.img
+-disk.vendorPartition.initPath = .\AppData\Local\Temp\NEX_Build_12\android\android-sdk\system-images\android-31\default\x86_64\\vendor.img
 -disk.vendorPartition.size = 800m
--disk.dataPartition.path = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\android\avd\Note12\userdata-qemu.img
+-disk.dataPartition.path = .\AppData\Local\Temp\NEX_Build_12\android\avd\Note12\userdata-qemu.img
 -disk.dataPartition.size = 2g
--disk.encryptionKeyPartition.path = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\android\avd\Note12\encryptionkey.img
+-disk.encryptionKeyPartition.path = .\AppData\Local\Temp\NEX_Build_12\android\avd\Note12\encryptionkey.img
 -PlayStore.enabled = false
 -avd.name = NEX12
 -avd.id = NEX12
@@ -3955,8 +3955,8 @@
 -firstboot.bootFromDownloadableSnapshot = true
 -firstboot.bootFromLocalSnapshot = true
 -firstboot.saveToLocalSnapshot = false
--android.sdk.root = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\android\android-sdk
--android.avd.home = C:\Users\PUVKID\AppData\Local\Temp\NEX_Build_12\source\work\reused-avd-home
+-android.sdk.root = .\AppData\Local\Temp\NEX_Build_12\android\android-sdk
+-android.avd.home = .\AppData\Local\Temp\NEX_Build_12\source\work\reused-avd-home
 -environment.width = 0
 -environment.height = 0
 --- 기본/NEXTools/avd/Note12/netsim.ini
@@ -4871,7 +4871,7 @@
 +<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48"><path android:fillColor="#2856D8" android:pathData="M0,0H48V48H0Z"/><path android:fillColor="#FFFFFF" android:pathData="M17,11L37,24L17,37Z"/></vector>--- 기본/source/app/src/main/res/values/strings.xml
 +++ 1차/source/app/src/main/res/values/strings.xml
 @@ -0,0 +1 @@
-+<resources><string name="app_name">윤석 터치매크로</string><string name="service_description">윤석님이 직접 만든 동작을 실행합니다. 화면 글자 읽기, 기기 내 한글 OCR, 좌표 터치, 스와이프와 뒤로가기에 접근성을 사용합니다. 화면이나 입력 내용은 서버로 전송하지 않습니다. 화면 위 정지 버튼으로 언제든 멈출 수 있습니다.</string><string name="test_taps">성공 횟수: %1$d</string><string name="ocr_taps">OCR 성공 횟수: %1$d</string></resources>--- 기본/source/app/src/main/res/values/styles.xml
++<resources><string name="app_name">윤석 터치매크로</string><string name="service_description">관리자이 직접 만든 동작을 실행합니다. 화면 글자 읽기, 기기 내 한글 OCR, 좌표 터치, 스와이프와 뒤로가기에 접근성을 사용합니다. 화면이나 입력 내용은 서버로 전송하지 않습니다. 화면 위 정지 버튼으로 언제든 멈출 수 있습니다.</string><string name="test_taps">성공 횟수: %1$d</string><string name="ocr_taps">OCR 성공 횟수: %1$d</string></resources>--- 기본/source/app/src/main/res/values/styles.xml
 +++ 1차/source/app/src/main/res/values/styles.xml
 @@ -0,0 +1 @@
 +<resources><style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar"><item name="android:fontFamily">@font/nanum_gothic_bold</item><item name="android:windowLightStatusBar">true</item><item name="android:statusBarColor">#F3F6FB</item><item name="android:navigationBarColor">#F3F6FB</item><item name="android:colorAccent">#2856D8</item><item name="android:windowActionModeOverlay">true</item></style></resources>--- 기본/source/app/src/main/res/xml/accessibility.xml
@@ -5290,7 +5290,7 @@
 --- 기본/source/local.properties
 +++ 1차/source/local.properties
 @@ -0,0 +1 @@
-+sdk.dir=D:/2026/PXE Project/코드/NEXTools/android-sdk
++# Android SDK는 ANDROID_HOME 또는 Android Studio가 생성한 이 기기의 sdk.dir로 설정합니다.
 --- 기본/source/settings.gradle
 +++ 1차/source/settings.gradle
 @@ -0,0 +1,4 @@
@@ -5397,10 +5397,10 @@
 --- 기본/검증/정적검사.txt
 +++ 1차/검증/정적검사.txt
 @@ -0,0 +1,29 @@
-+C:\Users\PUVKID\Desktop\YunseokTouchMacro\v1.0\source\app\build.gradle:11: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
++.\v1.0\source\app\build.gradle:11: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
 +dependencies { implementation 'com.google.mlkit:text-recognition-korean:16.0.1'; testImplementation 'junit:junit:4.13.2'; testImplementation 'org.json:json:20240303'; androidTestImplementation 'androidx.test:runner:1.6.2'; androidTestImplementation 'androidx.test.ext:junit:1.2.1' }
 +                                                                                                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-+C:\Users\PUVKID\Desktop\YunseokTouchMacro\v1.0\source\app\build.gradle:11: Warning: A newer version of androidx.test:runner than 1.6.2 is available: 1.7.0 [GradleDependency]
++.\v1.0\source\app\build.gradle:11: Warning: A newer version of androidx.test:runner than 1.6.2 is available: 1.7.0 [GradleDependency]
 +dependencies { implementation 'com.google.mlkit:text-recognition-korean:16.0.1'; testImplementation 'junit:junit:4.13.2'; testImplementation 'org.json:json:20240303'; androidTestImplementation 'androidx.test:runner:1.6.2'; androidTestImplementation 'androidx.test.ext:junit:1.2.1' }
 +                                                                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 +
@@ -5411,7 +5411,7 @@
 +   However, you may simply not be aware that a more recent version is
 +   available, and that is what this lint check helps find.
 +
-+C:\Users\PUVKID\Desktop\YunseokTouchMacro\v1.0\source\app\build.gradle:9: Warning: Missing x86_64 ABI support for ChromeOS [ChromeOsAbiSupport]
++.\v1.0\source\app\build.gradle:9: Warning: Missing x86_64 ABI support for ChromeOS [ChromeOsAbiSupport]
 + buildTypes { release { minifyEnabled false; signingConfig (signingFile.exists() ? signingConfigs.personal : signingConfigs.debug); ndk { abiFilters 'arm64-v8a' } } }
 +                                                                                                                                                     ~~~~~~~~~~~
 +
@@ -5481,7 +5481,7 @@
 -3차: NEX 3.0 간결한 화면 디자인
 -다음 릴리즈는 4차, 5차 순서로 새 폴더에 보관합니다.
 -이전 차수는 덮어쓰지 않습니다.
--작업 위치: D:\2026\PXE Project--- 기본/사용법.txt
+-작업 위치: .--- 기본/사용법.txt
 +++ 1차/사용법.txt
 @@ -0,0 +1,79 @@
 +윤석 터치매크로 1.0
@@ -5541,7 +5541,7 @@
 +- 한글 OCR 모델과 나눔고딕 Bold 폰트 내장
 +
 +제한과 확인
-+- 지원: Android 11 이상 ARM64. 윤석님 기기인 Android 12를 기준으로 제작했습니다.
++- 지원: Android 11 이상 ARM64. 관리자 기기인 Android 12를 기준으로 제작했습니다.
 +- 루팅은 필요하지 않습니다.
 +- OCR은 화면 화질·폰트·배치에 따라 오인식할 수 있으므로 사용할 화면에서 먼저 시험하세요.
 +- 보안 화면은 화면 캡처를 차단할 수 있습니다. 해당 앱이 글자 정보를 제공하면 '화면 정보만'을 사용하세요.
@@ -5555,7 +5555,7 @@
 +검증 상세는 '검증결과.txt'를 확인하세요.
 +
 +보관 위치
-+D:\2026\PXE Project\1차
++.\1차
 +APK, 예제, 사용법, 검증 결과, source 폴더를 이곳에서 확인할 수 있습니다.
 +work 폴더는 빌드 도구와 작업용 파일입니다.
 +

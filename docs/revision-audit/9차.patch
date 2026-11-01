@@ -291,11 +291,6 @@
          }
          LinearLayout dock=form();dock.setPadding(dp(24),dp(8),dp(24),dp(12));
          Button floating=button(dock,"다른 앱에서 사용  ↗",()->{if(service()){save();MacroService.get().showControls();moveTaskToBack(true);}});floating.setTextColor(ink);floating.setBackground(Ui.rounded(Ui.card(this),dp(14)));
---- 8차/local.properties
-+++ 9차/local.properties
-@@ -1 +1 @@
--sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_8/android/android-sdk
-+sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_9/android/android-sdk
 --- 8차/빌드.ps1
 +++ 9차/빌드.ps1
 @@ -1,8 +1,8 @@

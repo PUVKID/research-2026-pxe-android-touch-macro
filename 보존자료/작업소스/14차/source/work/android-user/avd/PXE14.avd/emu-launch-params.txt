@@ -1,4 +1,4 @@
-C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat-4
+.
 D:\PXE14Build\android\android-sdk\emulator-2\emulator.exe
 17
 D:\PXE14Build\android\android-sdk\emulator-2\emulator.exe

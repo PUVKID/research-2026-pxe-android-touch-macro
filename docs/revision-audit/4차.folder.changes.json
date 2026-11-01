@@ -211,9 +211,9 @@
     "path": "source/local.properties",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 55,
+    "after_bytes": 107,
     "before_sha256": null,
-    "after_sha256": "15c2d5d6310eaadd4f32a02e5cc87967c5a62adc5b2f5375673db8a2cc979de5"
+    "after_sha256": "7d4eaded4e2af23a6fb09517f84d94686c2e8740b8b6d0889c993a4ffef72ac1"
   },
   {
     "path": "source/settings.gradle",
@@ -235,9 +235,9 @@
     "path": "source/빌드방법.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 749,
+    "after_bytes": 731,
     "before_sha256": null,
-    "after_sha256": "1fcbd6b189686c5fc279edf884b052b15a3c8d23c947a390b8d613469ecbdbbd"
+    "after_sha256": "58830762f75f8a2772b540ed6608b8f7f93b542fa09217df330780da147d03a1"
   },
   {
     "path": "검증/Android12_전체통합검사.txt",
@@ -300,16 +300,16 @@
     "status": "수정",
     "before_bytes": 1796,
     "after_bytes": 956,
-    "before_sha256": "81514cbb1f86cc7dfd212527db651e696e1d045849a19705fb84d0ea770f05cb",
+    "before_sha256": "9d5b11eb70a2d36bfd7c411e938eb89d9da43f6895a81355b11b1dfe58bee33f",
     "after_sha256": "57f546cda6b89632f56a8fd4b2a1393cae5dd8d2d8036b28bdc7d6ea91fe212a"
   },
   {
     "path": "사용법.txt",
     "status": "수정",
-    "before_bytes": 4221,
-    "after_bytes": 5813,
-    "before_sha256": "c17bcb4956237b52b72316b4b823650ed5508021f529713413bee8e59cbe6cda",
-    "after_sha256": "bded230c23ac74667f318cc466730602cb72e57bdc4cb322e6fdc073a7b80ed4"
+    "before_bytes": 4203,
+    "after_bytes": 5795,
+    "before_sha256": "76a1763f51d9d97a8681566a8a49323edc1518aaec6c75b6598e9a49436a406f",
+    "after_sha256": "70d142938b6a506789dfcd225d8130dec985f0cd154e95258c9a003c5c4cb665"
   },
   {
     "path": "예제_OCR_미리보기.json",

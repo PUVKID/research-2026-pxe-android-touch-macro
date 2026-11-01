@@ -2,18 +2,18 @@
   {
     "path": "14차_보존기준.json",
     "status": "이전만 존재",
-    "before_bytes": 24739,
+    "before_bytes": 22499,
     "after_bytes": null,
-    "before_sha256": "054c0b0ef27cc50f10a9bbff14af8d4f2078205fd996a3e7f3dfb390864d3a1a",
+    "before_sha256": "fd7bc5d4d16ceb7e3d5b48ef7428b94591318ba22f96cae3400e24e33564f009",
     "after_sha256": null
   },
   {
     "path": "15차_보존기준.json",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 25747,
+    "after_bytes": 23367,
     "before_sha256": null,
-    "after_sha256": "191402cf0ba972406b7d428427e7a542c090dd5ed678cfed5120a13542b8f9e5"
+    "after_sha256": "1b35c367038525a6fe502155cd5874934d473a9097461cd4c7979eba1c62042f"
   },
   {
     "path": "APK_파일정보.json",
@@ -26,10 +26,10 @@
   {
     "path": "source/README.md",
     "status": "수정",
-    "before_bytes": 3930,
-    "after_bytes": 6230,
-    "before_sha256": "df01aff3bf9183dad081b31dfed0a078ff678d87321445adbe02476527bacbec",
-    "after_sha256": "35f18b65ee130a28c3a7c722ac1576fc05cc4a919282c84da98f69345c08c3cc"
+    "before_bytes": 3913,
+    "after_bytes": 6213,
+    "before_sha256": "01c4eeadf8813aff3be47bebdbabe3e358cf4c8b5823a5dc7d93871d0c46ed9e",
+    "after_sha256": "e945a32901c6c06c86c54c4b12898940369fc4fed45697739110123185339d26"
   },
   {
     "path": "source/app/build.gradle",
@@ -211,17 +211,9 @@
     "path": "source/docs/2026-10-28_16차_적응대기와입체UI_명세계획.md",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 11151,
+    "after_bytes": 11134,
     "before_sha256": null,
-    "after_sha256": "c4905f268f640b82a6bafc7b222c9038e89d9071d7c5451097a35fd6b7253f52"
-  },
-  {
-    "path": "source/local.properties",
-    "status": "수정",
-    "before_bytes": 46,
-    "after_bytes": 46,
-    "before_sha256": "9dd5e1197c0ccbab92d420e990e23f4ac9b36772f9c6d92edeb80338e2977dc8",
-    "after_sha256": "db1ea70367e10419400bdeb1c1cf1615d6f32008d7f0fc13021d00fe8c0151b0"
+    "after_sha256": "3c4a7d1dfc078d2f5949db72caeb1a8932ae24a4a90f5f263e5e885be0425a2a"
   },
   {
     "path": "source/tools/adaptive-check-plan.json",
@@ -306,17 +298,17 @@
   {
     "path": "source/빌드방법.txt",
     "status": "수정",
-    "before_bytes": 912,
-    "after_bytes": 898,
-    "before_sha256": "d420d225aa33e85c77ca8b0f89b1805661b43374f637de70bd71a4e8829c14b2",
-    "after_sha256": "31d23683cf13e5d9c87100281879e0549ee8ced5b9b8bd9d366422bc8baf4777"
+    "before_bytes": 877,
+    "after_bytes": 863,
+    "before_sha256": "43f7f12fb043835c8fbd6a75c5573c809567959b262c5d6b2e5e37214dea07e7",
+    "after_sha256": "87d83c8d4ecb20242e1e99194645ea7bf8e79eec1779f24aa60b3d927a52bb7f"
   },
   {
     "path": "검사결과.md",
     "status": "이전만 존재",
-    "before_bytes": 5671,
+    "before_bytes": 5712,
     "after_bytes": null,
-    "before_sha256": "0888a4a3361856eb59677658115f87d6b44f4b1253549794a6c95cfa3220cad2",
+    "before_sha256": "22bfe51ea01c19e015f206c29b7f8a9228914ea5ae617eb191fcbf726ad37a64",
     "after_sha256": null
   },
   {
@@ -339,17 +331,17 @@
     "path": "경로정리/변경_검증_보고.md",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 3720,
+    "after_bytes": 3703,
     "before_sha256": null,
-    "after_sha256": "dea5b11b4aeb9316261794c9fedd1973a3d34ac4495e54c460e4288302b5798a"
+    "after_sha256": "9c2bc068c3b83150bbde93eeee07bc71614ff0faf4ec88c83cf69e1c60eb52e1"
   },
   {
     "path": "경로정리/변경기록.md",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 1015,
+    "after_bytes": 998,
     "before_sha256": null,
-    "after_sha256": "320018734cd811afe1a15a09be597b4082b7be125ac0fda5d1918189167176db"
+    "after_sha256": "85044c7cca4bdc7fa704aaaa1122d9b3e4d01a8f9075da6e5adab70e03556d17"
   },
   {
     "path": "경로정리/변경전 원본/README.md",
@@ -395,9 +387,9 @@
     "path": "경로정리/변경전 원본/빌드방법.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 907,
+    "after_bytes": 889,
     "before_sha256": null,
-    "after_sha256": "9eeaf5098fe6c5528778c4fe1be0eea1f2e221cea60e9a185e018b308ec0149e"
+    "after_sha256": "42b534d45b857f8f7b4856b4d7f1184352d3006d2558f3113e7038e4dd883958"
   },
   {
     "path": "경로정리/설명.md",

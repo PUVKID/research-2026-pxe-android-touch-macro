@@ -10,7 +10,7 @@ MainActivity.java: 연결·단축창 터치 높이 48dp, 페이지 하단 32dp, 
 문구·클릭 Runnable·색상·나눔고딕 Bold 글꼴·기존 벡터 아이콘 보존. FloatingController/엔진/검사 소스 변경 없음.
 
 실행과 결과
-cwd: D:\2026\PXE Project\13차\source
+cwd: .\13차\source
 빌드: 빌드.ps1. 두 릴리스, 개인 서명 기기 검사 APK, 단위 검사 90개/실패0, lint 이슈0. 종료 코드0.
 기기: adb -P 5043 -s emulator-5598, ro.boot.qemu.avd_name=PXE13 및 설치 versionCode=13/versionName=1.3.0 확인. 본 앱과 검사 APK install-r 각각 Success.
 기기 명령: 확인된 Python 절대경로 -B -X utf8 tools/check_device.py PxeDesignReviewTest PxeGuideFlowTest.

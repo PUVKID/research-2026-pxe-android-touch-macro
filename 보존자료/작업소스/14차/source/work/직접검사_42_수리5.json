@@ -12,15 +12,15 @@
   "tests": 42,
   "results": [
     {
-      "log": "D:\\2026\\PXE Project\\14차\\source\\work\\upgrade14-repair5.log",
+      "log": ".\\14차\\source\\work\\upgrade14-repair5.log",
       "argv": [
-        "C:/Users/PUVKID/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+        "./.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
         "-B",
         "-X",
         "utf8",
         "tools/check_upgrade.py"
       ],
-      "cwd": "D:\\2026\\PXE Project\\14차\\source",
+      "cwd": ".\\14차\\source",
       "exit_code_observed": 0,
       "tests": 2,
       "instrumentation_seconds": 0.068,
@@ -81,9 +81,9 @@
       ]
     },
     {
-      "log": "D:\\2026\\PXE Project\\14차\\source\\work\\ui14-repair5.log",
+      "log": ".\\14차\\source\\work\\ui14-repair5.log",
       "argv": [
-        "C:/Users/PUVKID/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+        "./.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
         "-B",
         "-X",
         "utf8",
@@ -92,7 +92,7 @@
         "PxeGuideFlowTest",
         "PxeRedesignTest"
       ],
-      "cwd": "D:\\2026\\PXE Project\\14차\\source",
+      "cwd": ".\\14차\\source",
       "exit_code_observed": 0,
       "tests": 6,
       "instrumentation_seconds": 27.959,
@@ -118,9 +118,9 @@
       ]
     },
     {
-      "log": "D:\\2026\\PXE Project\\14차\\source\\work\\core14-repair5.log",
+      "log": ".\\14차\\source\\work\\core14-repair5.log",
       "argv": [
-        "C:/Users/PUVKID/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+        "./.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
         "-B",
         "-X",
         "utf8",
@@ -130,7 +130,7 @@
         "ControlVisibilityTest",
         "ServiceLifecycleTest"
       ],
-      "cwd": "D:\\2026\\PXE Project\\14차\\source",
+      "cwd": ".\\14차\\source",
       "exit_code_observed": 0,
       "tests": 20,
       "instrumentation_seconds": 217.886,
@@ -156,9 +156,9 @@
       ]
     },
     {
-      "log": "D:\\2026\\PXE Project\\14차\\source\\work\\screen14-repair5.log",
+      "log": ".\\14차\\source\\work\\screen14-repair5.log",
       "argv": [
-        "C:/Users/PUVKID/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+        "./.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
         "-B",
         "-X",
         "utf8",
@@ -168,7 +168,7 @@
         "CaptureRecoveryTest",
         "RegionPackageSafetyTest"
       ],
-      "cwd": "D:\\2026\\PXE Project\\14차\\source",
+      "cwd": ".\\14차\\source",
       "exit_code_observed": 0,
       "tests": 14,
       "instrumentation_seconds": 124.872,

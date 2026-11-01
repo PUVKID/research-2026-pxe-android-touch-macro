@@ -887,10 +887,7 @@
 + @Test(expected=IllegalArgumentException.class) public void rejectsOverlappingPriorityBoxes(){WatchConfig p=new WatchConfig();p.priorityAreas.add(new WatchArea(0,0,50,50));p.priorityAreas.add(new WatchArea(25,25,75,75));p.validate();}
 + @Test(expected=IllegalArgumentException.class) public void rejectsSeventhPriority(){WatchConfig p=new WatchConfig();for(int i=0;i<7;i++)p.priorityAreas.add(new WatchArea(0,i*10,50,i*10+5));p.validate();}
 +}
---- 5차/local.properties
-+++ 6차/local.properties
-@@ -1 +1 @@
--sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_5/android/android-sdk+sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_6/android/android-sdk--- 5차/빌드.ps1
+--- 5차/빌드.ps1
 +++ 6차/빌드.ps1
 @@ -1,8 +1,8 @@
  $ErrorActionPreference = 'Stop'

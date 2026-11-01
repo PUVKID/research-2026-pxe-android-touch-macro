@@ -574,10 +574,7 @@
 +        finally{for(File f:root.toFile().listFiles())Files.delete(f.toPath());Files.delete(root);}
 +    }
 +}
---- 11차/local.properties
-+++ 12차/local.properties
-@@ -1 +1 @@
--sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_11/android/android-sdk+sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_12/android/android-sdk--- 11차/tools/check_device.py
+--- 11차/tools/check_device.py
 +++ 12차/tools/check_device.py
 @@ -1,4 +1,4 @@
 -"""소유한 NEX12 검사 장치와 11차 설치를 확인한 뒤 기기 회귀 검사를 실행합니다."""

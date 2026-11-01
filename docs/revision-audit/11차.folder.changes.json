@@ -96,14 +96,6 @@
     "after_sha256": "cace31ba942453288a3dfda03600b9a37cbb18cd8b5eb459237a0a3a903aa62f"
   },
   {
-    "path": "source/local.properties",
-    "status": "수정",
-    "before_bytes": 77,
-    "after_bytes": 75,
-    "before_sha256": "675a9d8113a118c3b6026d9288990cbc9db036a121832ff42e7ef4711daa7313",
-    "after_sha256": "66d271f31d88b54ef51eb3f277e3c9ddec3c156fb710fd5810da6cb328f9a464"
-  },
-  {
     "path": "source/tools/check_device.py",
     "status": "추가",
     "before_bytes": null,
@@ -332,7 +324,7 @@
     "status": "수정",
     "before_bytes": 2013,
     "after_bytes": 1506,
-    "before_sha256": "3f31eec35402349feaa5b3ce4231fb2eabe3306516a85e6f51ac040cdbfce87b",
+    "before_sha256": "a8369314054517214f78f278908ddc74d7a44a620ac7d739bb825a73b46555d8",
     "after_sha256": "849f7cc68b9d05f87c59a2c8a1c5b9792b16cb358286ce2ec0324d4d125dcd7c"
   }
 ]

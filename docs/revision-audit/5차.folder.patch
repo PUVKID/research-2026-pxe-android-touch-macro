@@ -450,10 +450,7 @@
 +    @Test(expected=IllegalArgumentException.class) public void rejectsZeroRepetitions(){WatchConfig p=new WatchConfig();p.repetitions=0;p.validate();}
      @Test(expected=IllegalArgumentException.class) public void rejectsAllDisabled(){Macro m=new Macro();Step s=new Step("TAP");s.enabled=false;m.steps.add(s);new WatchConfig().validateMacro(m);}
  }
---- 4차/source/local.properties
-+++ 5차/source/local.properties
-@@ -1 +1 @@
--sdk.dir=D:/2026/PXE Project/코드/NEXTools/android-sdk+sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_5/android/android-sdk--- 4차/source/빌드.ps1
+--- 4차/source/빌드.ps1
 +++ 5차/source/빌드.ps1
 @@ -1,8 +1,8 @@
  $ErrorActionPreference = 'Stop'
@@ -473,7 +470,7 @@
 -NEX 4차 소스 빌드
 +NEX 5차 소스 빌드
  
--이 소스는 D:\2026\PXE Project\4차\source에 있습니다.
+-이 소스는 .\4차\source에 있습니다.
 -기존 3차의 소스 본문과 별도로 정리되어 있던 루트 빌드 설정을 합쳐 보관했습니다.
 -개인 서명 키는 소스에 포함하지 않습니다.
 +source 폴더에 전체 Android 프로젝트가 있습니다.
@@ -763,9 +760,9 @@
 -처음에는 '현재 화면 인식 미리보기'로 영역과 인식 결과를 확인하세요.
 -
 -보관
--D:\2026\PXE Project\4차
+-.\4차
 -이전 1차·2차·3차·최종 폴더는 보존했습니다.
-+NEX 5차 — 윤석님 반복 탐지 모드
++NEX 5차 — 관리자 반복 탐지 모드
 +
 +원하는 동작
 +글자 발견 → 그 글자를 눌러 들어가기 → 선택한 매크로 15회 → 뒤로가기 → 10초 대기 → 스크롤 새로고침 → 다시 탐지

@@ -236,7 +236,7 @@
     "status": "이전만 존재",
     "before_bytes": 628,
     "after_bytes": null,
-    "before_sha256": "00a53888578604a67a1aa128c73496615e5b73bf65c72c2294b6e9cc3dbb4707",
+    "before_sha256": "a59866edcbe73c41fa22609b5ab428c248a476ab483f130d0f98f3057dd725c8",
     "after_sha256": null
   },
   {
@@ -330,9 +330,9 @@
   {
     "path": "NEXSource2/local.properties",
     "status": "이전만 존재",
-    "before_bytes": 56,
+    "before_bytes": 107,
     "after_bytes": null,
-    "before_sha256": "46040d29cac5f84d9313b835b2a583c216bf27271d20f4b9750b02b1d51b9a6c",
+    "before_sha256": "7d4eaded4e2af23a6fb09517f84d94686c2e8740b8b6d0889c993a4ffef72ac1",
     "after_sha256": null
   },
   {
@@ -346,9 +346,9 @@
   {
     "path": "NEXSource2/빌드방법.txt",
     "status": "이전만 존재",
-    "before_bytes": 1811,
+    "before_bytes": 1739,
     "after_bytes": null,
-    "before_sha256": "8379da82be284b6c2f89bead19712e53cc2c8cbf06c9b43ee07b8f43d291c6b5",
+    "before_sha256": "2d633f4308af098c18531cbb7fb7a0477be75a18891806cfeae99e2574f4d0d9",
     "after_sha256": null
   },
   {
@@ -402,9 +402,9 @@
   {
     "path": "NEXSource3/local.properties",
     "status": "이전만 존재",
-    "before_bytes": 56,
+    "before_bytes": 107,
     "after_bytes": null,
-    "before_sha256": "46040d29cac5f84d9313b835b2a583c216bf27271d20f4b9750b02b1d51b9a6c",
+    "before_sha256": "7d4eaded4e2af23a6fb09517f84d94686c2e8740b8b6d0889c993a4ffef72ac1",
     "after_sha256": null
   },
   {
@@ -418,17 +418,17 @@
   {
     "path": "NEXSource3/빌드방법.txt",
     "status": "이전만 존재",
-    "before_bytes": 1811,
+    "before_bytes": 1739,
     "after_bytes": null,
-    "before_sha256": "8379da82be284b6c2f89bead19712e53cc2c8cbf06c9b43ee07b8f43d291c6b5",
+    "before_sha256": "2d633f4308af098c18531cbb7fb7a0477be75a18891806cfeae99e2574f4d0d9",
     "after_sha256": null
   },
   {
     "path": "NEXTools/avd/NEX12.ini",
     "status": "이전만 존재",
-    "before_bytes": 116,
+    "before_bytes": 102,
     "after_bytes": null,
-    "before_sha256": "2d865bc132e8119502276538fbed1b204f99c2b733d003c5ab82c2e7be2c8912",
+    "before_sha256": "8028b033e36ba41faffffc2ca95e2e6dee217f67679a7dee28238361cd0114e1",
     "after_sha256": null
   },
   {
@@ -442,9 +442,9 @@
   {
     "path": "NEXTools/avd/Note12/hardware-qemu.ini",
     "status": "이전만 존재",
-    "before_bytes": 4619,
+    "before_bytes": 4493,
     "after_bytes": null,
-    "before_sha256": "dd6f5a1c7b488f354e7762303284ed40e309890748ab77a0c9504abf229cb900",
+    "before_sha256": "cf928d334e0990ff405e3ad81a53f14c0f47349b479a34bd8035f90529dacf93",
     "after_sha256": null
   },
   {
@@ -597,7 +597,7 @@
     "before_bytes": null,
     "after_bytes": 539,
     "before_sha256": null,
-    "after_sha256": "73883b2b4dbdd4742385dae3115c54a884b00b56805ccf021ff7df71665bc947"
+    "after_sha256": "6f6a57b0f3e944111fe05ac708c7c4c22c8350d30944ef15f26703b829aaa08e"
   },
   {
     "path": "source/app/src/main/res/values/styles.xml",
@@ -683,9 +683,9 @@
     "path": "source/local.properties",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 56,
+    "after_bytes": 107,
     "before_sha256": null,
-    "after_sha256": "46040d29cac5f84d9313b835b2a583c216bf27271d20f4b9750b02b1d51b9a6c"
+    "after_sha256": "7d4eaded4e2af23a6fb09517f84d94686c2e8740b8b6d0889c993a4ffef72ac1"
   },
   {
     "path": "source/settings.gradle",
@@ -747,9 +747,9 @@
     "path": "검증/정적검사.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 2827,
+    "after_bytes": 2707,
     "before_sha256": null,
-    "after_sha256": "bb0ab32f95870561720e2aa0e525eccae8aa90915c62a2803695425b4519eeb4"
+    "after_sha256": "1393ab5828154cc838441bfa931bd3b795fec218ec3cc0fdaaf4fe793779d93f"
   },
   {
     "path": "검증결과.txt",
@@ -762,18 +762,18 @@
   {
     "path": "릴리즈_보관규칙.txt",
     "status": "이전만 존재",
-    "before_bytes": 286,
+    "before_bytes": 268,
     "after_bytes": null,
-    "before_sha256": "34789c8966c68d78fa0ae320665883a4df73ff7111e67b0fbb0585e16fdee2e1",
+    "before_sha256": "8c376ee6af0cd456b42e80a2cac77c1ad8b2d1c24c360a5665d21d159e410dc9",
     "after_sha256": null
   },
   {
     "path": "사용법.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 5363,
+    "after_bytes": 5345,
     "before_sha256": null,
-    "after_sha256": "b53111ca2917ae0bc2bfc1894a4ce806bdbfda0e28589f0aad78447823ee8d44"
+    "after_sha256": "f8744cc7a05f36c87467552a715a187e2f119be559084f525fcf8f22cb46e6c7"
   },
   {
     "path": "예제_글자없으면_뒤로가기.json",

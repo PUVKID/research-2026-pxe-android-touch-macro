@@ -262,10 +262,6 @@
 +        try{lane.submit(()->{fail("Executed after close");return 1;}).get(1,TimeUnit.SECONDS);fail("Accepted after close");}catch(ExecutionException expected){}
 +    }
 +}
---- 6차/local.properties
-+++ 8차/local.properties
-@@ -1 +1 @@
--sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_6/android/android-sdk+sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_8/android/android-sdk
 --- 6차/빌드.ps1
 +++ 8차/빌드.ps1
 @@ -1,8 +1,8 @@

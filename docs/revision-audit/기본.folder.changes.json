@@ -229,7 +229,7 @@
     "before_bytes": null,
     "after_bytes": 628,
     "before_sha256": null,
-    "after_sha256": "00a53888578604a67a1aa128c73496615e5b73bf65c72c2294b6e9cc3dbb4707"
+    "after_sha256": "a59866edcbe73c41fa22609b5ab428c248a476ab483f130d0f98f3057dd725c8"
   },
   {
     "path": "NEXSource2/app/src/main/res/values/styles.xml",
@@ -323,9 +323,9 @@
     "path": "NEXSource2/local.properties",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 56,
+    "after_bytes": 107,
     "before_sha256": null,
-    "after_sha256": "46040d29cac5f84d9313b835b2a583c216bf27271d20f4b9750b02b1d51b9a6c"
+    "after_sha256": "7d4eaded4e2af23a6fb09517f84d94686c2e8740b8b6d0889c993a4ffef72ac1"
   },
   {
     "path": "NEXSource2/settings.gradle",
@@ -339,9 +339,9 @@
     "path": "NEXSource2/빌드방법.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 1811,
+    "after_bytes": 1739,
     "before_sha256": null,
-    "after_sha256": "8379da82be284b6c2f89bead19712e53cc2c8cbf06c9b43ee07b8f43d291c6b5"
+    "after_sha256": "2d633f4308af098c18531cbb7fb7a0477be75a18891806cfeae99e2574f4d0d9"
   },
   {
     "path": "NEXSource3/.gitignore",
@@ -395,9 +395,9 @@
     "path": "NEXSource3/local.properties",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 56,
+    "after_bytes": 107,
     "before_sha256": null,
-    "after_sha256": "46040d29cac5f84d9313b835b2a583c216bf27271d20f4b9750b02b1d51b9a6c"
+    "after_sha256": "7d4eaded4e2af23a6fb09517f84d94686c2e8740b8b6d0889c993a4ffef72ac1"
   },
   {
     "path": "NEXSource3/settings.gradle",
@@ -411,17 +411,17 @@
     "path": "NEXSource3/빌드방법.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 1811,
+    "after_bytes": 1739,
     "before_sha256": null,
-    "after_sha256": "8379da82be284b6c2f89bead19712e53cc2c8cbf06c9b43ee07b8f43d291c6b5"
+    "after_sha256": "2d633f4308af098c18531cbb7fb7a0477be75a18891806cfeae99e2574f4d0d9"
   },
   {
     "path": "NEXTools/avd/NEX12.ini",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 116,
+    "after_bytes": 102,
     "before_sha256": null,
-    "after_sha256": "2d865bc132e8119502276538fbed1b204f99c2b733d003c5ab82c2e7be2c8912"
+    "after_sha256": "8028b033e36ba41faffffc2ca95e2e6dee217f67679a7dee28238361cd0114e1"
   },
   {
     "path": "NEXTools/avd/Note12/config.ini",
@@ -435,9 +435,9 @@
     "path": "NEXTools/avd/Note12/hardware-qemu.ini",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 4619,
+    "after_bytes": 4493,
     "before_sha256": null,
-    "after_sha256": "dd6f5a1c7b488f354e7762303284ed40e309890748ab77a0c9504abf229cb900"
+    "after_sha256": "cf928d334e0990ff405e3ad81a53f14c0f47349b479a34bd8035f90529dacf93"
   },
   {
     "path": "NEXTools/avd/Note12/netsim.ini",
@@ -451,8 +451,8 @@
     "path": "릴리즈_보관규칙.txt",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 286,
+    "after_bytes": 268,
     "before_sha256": null,
-    "after_sha256": "34789c8966c68d78fa0ae320665883a4df73ff7111e67b0fbb0585e16fdee2e1"
+    "after_sha256": "8c376ee6af0cd456b42e80a2cac77c1ad8b2d1c24c360a5665d21d159e410dc9"
   }
 ]

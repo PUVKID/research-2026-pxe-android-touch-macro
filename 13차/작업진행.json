@@ -1,7 +1,7 @@
 {
   "updated_kst": "2026-10-25T20:18:17.5791173+09:00",
-  "project": "D:\\2026\\PXE Project",
-  "source": "D:\\2026\\PXE Project\\13차\\source",
+  "project": ".",
+  "source": ".\\13차\\source",
   "session": "01a131ad-d167-7873-9aa6-4d81ff131c60",
   "task": "pxe13-ocr-stall-20261025",
   "mode": "reassess",
@@ -38,7 +38,7 @@
   "receipt": ".codex/routing-state/df1ea7273e46d16ba9664afc.verification.json",
   "gate": "중앙MAX개별75/전체125변경금지. 현재3gate pure30/UTF15/artifact30 total75. 필수전체명세tools/required-check-plan.json의Android3batch36개는같은argv/260·180·120초/내부240/총720초로독립직접실행,review에전후source/global/APK/masterhash+rawSHA결합. 자동6개라고주장금지",
   "owned_device": "소유PXE13 이름확인후adb -P5043 -semulator-5598 emukill OK. 사용자BlueStacks미조작",
-  "python": "C:\\Users\\PUVKID\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B -X utf8",
+  "python": ".\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B -X utf8",
   "build": "빌드.ps1, ASCII D:\\PXE13Build junction→프로젝트work/build13. 서명키외부코드/NEXSigning 출력금지",
   "old_preservation": "12차원본80개SHA보존통과. 모든이전차수변경0",
   "current_apk_pc_sha": "586a812e5bd31f5f36b762b16dd2842d7ccbc78c7769e66fe77c97d291b98a13",

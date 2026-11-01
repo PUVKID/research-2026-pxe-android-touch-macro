@@ -912,7 +912,8 @@
 --- 3차/local.properties
 +++ 4차/local.properties
 @@ -0,0 +1 @@
-+sdk.dir=D:/2026/PXE Project/코드/NEXTools/android-sdk--- 3차/settings.gradle
++# Android SDK는 ANDROID_HOME 또는 Android Studio가 생성한 이 기기의 sdk.dir로 설정합니다.
+--- 3차/settings.gradle
 +++ 4차/settings.gradle
 @@ -0,0 +1,4 @@
 +pluginManagement { repositories { google(); mavenCentral(); gradlePluginPortal() } }
@@ -948,7 +949,7 @@
 @@ -0,0 +1,15 @@
 +NEX 4차 소스 빌드
 +
-+이 소스는 D:\2026\PXE Project\4차\source에 있습니다.
++이 소스는 .\4차\source에 있습니다.
 +기존 3차의 소스 본문과 별도로 정리되어 있던 루트 빌드 설정을 합쳐 보관했습니다.
 +개인 서명 키는 소스에 포함하지 않습니다.
 +

@@ -928,10 +928,7 @@
 + @Test(expected=IllegalArgumentException.class) public void rejectsOverlappingPriorityBoxes(){WatchConfig p=new WatchConfig();p.priorityAreas.add(new WatchArea(0,0,50,50));p.priorityAreas.add(new WatchArea(25,25,75,75));p.validate();}
 + @Test(expected=IllegalArgumentException.class) public void rejectsSeventhPriority(){WatchConfig p=new WatchConfig();for(int i=0;i<7;i++)p.priorityAreas.add(new WatchArea(0,i*10,50,i*10+5));p.validate();}
 +}
---- 5차/source/local.properties
-+++ 6차/source/local.properties
-@@ -1 +1 @@
--sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_5/android/android-sdk+sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_6/android/android-sdk--- 5차/source/빌드.ps1
+--- 5차/source/빌드.ps1
 +++ 6차/source/빌드.ps1
 @@ -1,8 +1,8 @@
  $ErrorActionPreference = 'Stop'
@@ -1292,7 +1289,7 @@
 --- 5차/사용법.txt
 +++ 6차/사용법.txt
 @@ -1,47 +1,67 @@
--NEX 5차 — 윤석님 반복 탐지 모드
+-NEX 5차 — 관리자 반복 탐지 모드
 +NEX 6차 v6.0 — 순서대로 설정
  
 -원하는 동작

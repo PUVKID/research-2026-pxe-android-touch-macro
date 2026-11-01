@@ -112,14 +112,6 @@
     "after_sha256": "c46c43e94385c120ffcc096e5961c1934b5e4a3a7761bf8088204b1626cc79d3"
   },
   {
-    "path": "source/local.properties",
-    "status": "수정",
-    "before_bytes": 55,
-    "after_bytes": 74,
-    "before_sha256": "15c2d5d6310eaadd4f32a02e5cc87967c5a62adc5b2f5375673db8a2cc979de5",
-    "after_sha256": "8cba67ca8b5f6368e70c960879afb88ac0e78ec13f0d7ecdf67f882f3976735e"
-  },
-  {
     "path": "source/빌드.ps1",
     "status": "수정",
     "before_bytes": 1528,
@@ -130,9 +122,9 @@
   {
     "path": "source/빌드방법.txt",
     "status": "수정",
-    "before_bytes": 749,
+    "before_bytes": 731,
     "after_bytes": 740,
-    "before_sha256": "1fcbd6b189686c5fc279edf884b052b15a3c8d23c947a390b8d613469ecbdbbd",
+    "before_sha256": "58830762f75f8a2772b540ed6608b8f7f93b542fa09217df330780da147d03a1",
     "after_sha256": "1df1d32323a8786bd818e49c570914663565efecbb72299a096c67bdbd638062"
   },
   {
@@ -218,9 +210,9 @@
   {
     "path": "사용법.txt",
     "status": "수정",
-    "before_bytes": 5813,
+    "before_bytes": 5795,
     "after_bytes": 3580,
-    "before_sha256": "bded230c23ac74667f318cc466730602cb72e57bdc4cb322e6fdc073a7b80ed4",
-    "after_sha256": "32eef87f2981994f2b7d6c831b5146f230cfc301475053946157b23d4f512ad3"
+    "before_sha256": "70d142938b6a506789dfcd225d8130dec985f0cd154e95258c9a003c5c4cb665",
+    "after_sha256": "6ad0c0843861312b28f1cdbab4bff8831f3c8e325ecfee447511f395e7246cb2"
   }
 ]

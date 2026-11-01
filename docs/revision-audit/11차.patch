@@ -407,11 +407,7 @@
  plugins { id 'com.android.application' version '8.9.1' apply false }
 +// 검사 영수증에서 제외하는 작업 폴더 안에만 생성물을 둡니다.
 +allprojects { layout.buildDirectory = rootProject.layout.projectDirectory.dir("work/build/${project.name}") }
---- 10차/local.properties
-+++ 11차/local.properties
-@@ -1 +1 @@
--sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_10/android/android-sdk
-+sdk.dir=C:/Users/PUVKID/AppData/Local/Temp/NEX_Build_11/android/android-sdk--- 10차/tools/check_device.py
+--- 10차/tools/check_device.py
 +++ 11차/tools/check_device.py
 @@ -0,0 +1,21 @@
 +"""소유한 NEX12 검사 장치와 11차 설치를 확인한 뒤 기기 회귀 검사를 실행합니다."""

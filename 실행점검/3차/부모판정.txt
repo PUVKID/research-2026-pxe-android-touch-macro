@@ -5,7 +5,7 @@
 역할 triage gpt-6-luna/low → quick gpt-6-luna/medium. 부모는신고흐름반복속도향상수정을제외하고허용부분인기존로그조회만배정함. 도구역할요청값근거,서버런타임모델신원미확인,main모델자동변경아님.
 조회자가공개패키지정보에서6기기모두versionCode11/name1.1.0확인보고. 원본상세명령은관측자기존도구결과근거로별도확인요청.
 실패명령: [C:\Program Files\BlueStacks_nxt\HD-Adb.exe,-P,5044,-s,127.0.0.1:5555,logcat,-b,crash,-d,-t,500,-v,threadtime]
-Python subprocess timeout15초,TimeoutExpired. wrapper/exec 종료코드1. 당시cwd C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat-4. 관측자보고실패시각01:43경이나정확시각근거미확인. 이파일작성시각은별도기록.
+Python subprocess timeout15초,TimeoutExpired. wrapper/exec 종료코드1. 당시cwd .. 관측자보고실패시각01:43경이나정확시각근거미확인. 이파일작성시각은별도기록.
 당시변경: 신규3차빈폴더,점검용ADB5044시작/6기기연결. 앱/설정/소스0. 기본5037미접촉. 조회자즉시중단/재시도0. 실제crash로그미확인.
 부모판정: 공개ADB로그조회환경응답시간초과,앱결함으로분류안함. 모델상향으로해결했다고말하지않음. 추가ADB로그조회중단. 후속quick gpt-6-luna/medium에는이미확보한도구결과의정확한시각/버전원문근거정리만배정,새명령금지. 코드수리없음repair_used0→0. 부모는본작업점검서버5044만정리승인. 이후독립verifier는로컬읽기전용근거만검토.
 UI의최근실행기록은아직미열람. 사용자에게매크로정지후설정→실행기록열기/창이름질문을발송했고답변대기. root/run-as/privateprefs추출/uiautomator/계정입력/매크로실행0.

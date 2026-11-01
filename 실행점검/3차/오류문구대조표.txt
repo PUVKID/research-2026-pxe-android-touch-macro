@@ -34,4 +34,4 @@ MainActivity '최근 실행 기록'에서파일저장이가능하지만이번에
 기존차수보존/새APK미생성/원본소스·앱·설정변경0.
 역할:triage gpt-6-luna/low→quick gpt-6-luna/medium(공개로그조회).독립검토verifier gpt-6.1-sol/high 예정.서버런타임신원미확인.이번읽기전용작업repair0/1.이전성능점검보조스크립트수리1과별도.
 공식Logcat자료: https://developer.android.com/tools/logcat
-소스: C:\Users\PUVKID\Desktop\매크로\11차\source\app\src\main\java\kr\yunseok\touchmacro\MacroService.java
+소스: .\11차\source\app\src\main\java\kr\yunseok\touchmacro\MacroService.java
