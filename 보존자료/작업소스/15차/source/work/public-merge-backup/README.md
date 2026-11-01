@@ -25,7 +25,7 @@
 
 ## 최신 15차 · 1.5.0
 
-[15차 소스와 빌드 안내](15차/source/README.md)에서 최신 구현을 확인할 수 있습니다. 인식 방식의 적용 범위를 기본 설정에 표시하고, 캡처 간격 오류 후 정상 회복·목록 반복 대기·즉시 진입 선택을 개선했습니다. 기존 차수는 보존합니다.
+[15차 소스와 빌드 안내](../../../../../../15%EC%B0%A8/source/README.md)에서 최신 구현을 확인할 수 있습니다. 인식 방식의 적용 범위를 기본 설정에 표시하고, 캡처 간격 오류 후 정상 회복·목록 반복 대기·즉시 진입 선택을 개선했습니다. 기존 차수는 보존합니다.
 
 15차는 Gradle 설정·Manifest·리소스·나눔고딕 Bold와 기존 OFL 고지를 함께 포함합니다. 개인 키·프로필·실행 원문·APK·캐시는 공개하지 않습니다. 아래 과거 차수 설명과 사진은 당시 상태로 구분합니다.
 
@@ -105,9 +105,9 @@ flowchart LR
 └── docs/VERSIONS.md
 ```
 
-- [15차 소스](15차/source/), [동작 모델](15차/source/app/src/main/java/kr/yunseok/touchmacro/Step.java).
-- [접근성 실행 서비스](15차/source/app/src/main/java/kr/yunseok/touchmacro/MacroService.java).
-- [기기 검사 코드](15차/source/app/src/androidTest/java/), [버전 기록](docs/VERSIONS.md).
+- [15차 소스](../../../../../../15%EC%B0%A8/source), [동작 모델](../../../../../../15%EC%B0%A8/source/app/src/main/java/kr/yunseok/touchmacro/Step.java).
+- [접근성 실행 서비스](../../../../../../15%EC%B0%A8/source/app/src/main/java/kr/yunseok/touchmacro/MacroService.java).
+- [기기 검사 코드](../../../../../../15%EC%B0%A8/source/app/src/androidTest/java), [버전 기록](docs/VERSIONS.md).
 
 <a name="implementation"></a>
 
@@ -148,7 +148,7 @@ flowchart LR
 
 ## 🚀 빠른 시작
 
-최신 15차는 소스·Gradle 설정·Manifest·리소스와 글꼴 라이선스를 포함합니다. JDK17과 Android SDK35를 준비한 뒤 [15차 빌드 안내](15차/source/README.md)를 따릅니다. 과거 14차 공개 사본에서 일부 빌드 입력이 빠졌던 상태와 구분합니다.
+최신 15차는 소스·Gradle 설정·Manifest·리소스와 글꼴 라이선스를 포함합니다. JDK17과 Android SDK35를 준비한 뒤 [15차 빌드 안내](../../../../../../15%EC%B0%A8/source/README.md)를 따릅니다. 과거 14차 공개 사본에서 일부 빌드 입력이 빠졌던 상태와 구분합니다.
 
 ```powershell
 cd 15차/source

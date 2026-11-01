@@ -18,7 +18,7 @@
 
 ## 최신 16차 · 1.6.0
 
-[16차 소스와 빌드 안내](16차/source/README.md) · [변경과 검증 범위](docs/versions/16차.md)
+[16차 소스와 빌드 안내](../../../../../../16%EC%B0%A8/source/README.md) · [변경과 검증 범위](docs/versions/16차.md)
 
 다음 글자가 나타나면 진행하는 선택형 적응 대기, 단계별 실제 시간 표시, 정지·일시정지 경합 수리와 OBJ 기반 입체 모델을 추가했습니다. 기존 매크로의 대기 수치와 저장 형식, 이전 차수는 보존합니다. 나눔고딕 Bold와 기존 OFL 고지를 포함합니다.
 
@@ -38,13 +38,13 @@
 
 ### 🧭 차수 바로가기
 
-[기본](docs/versions/%EA%B8%B0%EB%B3%B8.md) · [1차](docs/versions/1%EC%B0%A8.md) · [3차](docs/versions/3%EC%B0%A8.md) · [4차](docs/versions/4%EC%B0%A8.md) · [5차](docs/versions/5%EC%B0%A8.md) · [6차](docs/versions/6%EC%B0%A8.md) · [8차](docs/versions/8%EC%B0%A8.md) · [9차](docs/versions/9%EC%B0%A8.md) · [10차](docs/versions/10%EC%B0%A8.md) · [11차](docs/versions/11%EC%B0%A8.md) · [12차](docs/versions/12%EC%B0%A8.md) · [13차](docs/versions/13%EC%B0%A8.md) · [14차](docs/versions/14%EC%B0%A8.md) · [15차](15차/source/README.md) · [16차](16차/source/README.md) · [실행점검/2차](docs/versions/%EC%8B%A4%ED%96%89%EC%A0%90%EA%B2%80-2%EC%B0%A8.md)
+[기본](docs/versions/%EA%B8%B0%EB%B3%B8.md) · [1차](docs/versions/1%EC%B0%A8.md) · [3차](docs/versions/3%EC%B0%A8.md) · [4차](docs/versions/4%EC%B0%A8.md) · [5차](docs/versions/5%EC%B0%A8.md) · [6차](docs/versions/6%EC%B0%A8.md) · [8차](docs/versions/8%EC%B0%A8.md) · [9차](docs/versions/9%EC%B0%A8.md) · [10차](docs/versions/10%EC%B0%A8.md) · [11차](docs/versions/11%EC%B0%A8.md) · [12차](docs/versions/12%EC%B0%A8.md) · [13차](docs/versions/13%EC%B0%A8.md) · [14차](docs/versions/14%EC%B0%A8.md) · [15차](../../../../../../15%EC%B0%A8/source/README.md) · [16차](../../../../../../16%EC%B0%A8/source/README.md) · [실행점검/2차](docs/versions/%EC%8B%A4%ED%96%89%EC%A0%90%EA%B2%80-2%EC%B0%A8.md)
 
 코드/의 차수 밖 NEX 자료와 실행점검/2차는 별도로 안내합니다. 실행점검/2차는 제품 앱의 2차가 아닙니다.
 
 | 관심 있는 내용 | 바로가기 |
 | :--- | :--- |
-| 코드를 먼저 보고 싶어요 | [최신 원본 폴더](16차/source/) |
+| 코드를 먼저 보고 싶어요 | [최신 원본 폴더](../../../../../../16%EC%B0%A8/source) |
 | 이전과 무엇이 다른가요? | [차수별 해설과 근거](docs/VERSIONS.md) |
 | 어떻게 실행하나요? | [준비 조건과 실행 제약](#quick-start) |
 
@@ -116,9 +116,9 @@ flowchart LR
 └── docs/VERSIONS.md
 ```
 
-- [15차 소스](15차/source/), [동작 모델](15차/source/app/src/main/java/kr/yunseok/touchmacro/Step.java).
-- [접근성 실행 서비스](15차/source/app/src/main/java/kr/yunseok/touchmacro/MacroService.java).
-- [기기 검사 코드](15차/source/app/src/androidTest/java/), [버전 기록](docs/VERSIONS.md).
+- [15차 소스](../../../../../../15%EC%B0%A8/source), [동작 모델](../../../../../../15%EC%B0%A8/source/app/src/main/java/kr/yunseok/touchmacro/Step.java).
+- [접근성 실행 서비스](../../../../../../15%EC%B0%A8/source/app/src/main/java/kr/yunseok/touchmacro/MacroService.java).
+- [기기 검사 코드](../../../../../../15%EC%B0%A8/source/app/src/androidTest/java), [버전 기록](docs/VERSIONS.md).
 
 <a name="implementation"></a>
 
@@ -159,7 +159,7 @@ flowchart LR
 
 ## 🚀 빠른 시작
 
-최신 15차는 소스·Gradle 설정·Manifest·리소스와 글꼴 라이선스를 포함합니다. JDK17과 Android SDK35를 준비한 뒤 [15차 빌드 안내](15차/source/README.md)를 따릅니다. 과거 14차 공개 사본에서 일부 빌드 입력이 빠졌던 상태와 구분합니다.
+최신 15차는 소스·Gradle 설정·Manifest·리소스와 글꼴 라이선스를 포함합니다. JDK17과 Android SDK35를 준비한 뒤 [15차 빌드 안내](../../../../../../15%EC%B0%A8/source/README.md)를 따릅니다. 과거 14차 공개 사본에서 일부 빌드 입력이 빠졌던 상태와 구분합니다.
 
 ```powershell
 cd 15차/source

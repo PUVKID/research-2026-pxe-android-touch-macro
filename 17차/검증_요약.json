@@ -1,0 +1,51 @@
+{
+  "version": "1.7.0",
+  "revision": 17,
+  "independent_device_tests": 104,
+  "unit_tests": 100,
+  "unit_classes": 18,
+  "lint_issues": 0,
+  "plans": [
+    {
+      "plan": "required",
+      "tests": 52,
+      "seconds": 335.312,
+      "limit_seconds": 720
+    },
+    {
+      "plan": "recognition",
+      "tests": 12,
+      "seconds": 51.64,
+      "limit_seconds": 240
+    },
+    {
+      "plan": "adaptive",
+      "tests": 25,
+      "seconds": 91.969,
+      "limit_seconds": 480
+    },
+    {
+      "plan": "recovery",
+      "tests": 15,
+      "seconds": 55.562,
+      "limit_seconds": 240
+    }
+  ],
+  "previous_revision_preserved_items": 140,
+  "apks": [
+    {
+      "file": "PXE_17차_v1.7_PC용.apk",
+      "bytes": 35351122,
+      "sha256": "1116d7614fd82fcf6944fcdac4f0cb0d8b6ca3de9e6a9b5a10c55e98e6b660e3"
+    },
+    {
+      "file": "PXE_17차_v1.7_노트10플러스.apk",
+      "bytes": 23713866,
+      "sha256": "216a7adff48970aa218ac9bca22c9798959ccb289950a08073464b6e1ca867ca"
+    }
+  ],
+  "limits": [
+    "사용자 실제 블루스택·게임·노트10+·24시간 운용 미검증",
+    "이번 차수 15회 속도 비교 미실행"
+  ]
+}

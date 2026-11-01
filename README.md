@@ -16,13 +16,13 @@
 
 </div>
 
-## 최신 16차 · 1.6.0
+## 최신 17차 · 1.7.0
 
-[16차 소스와 빌드 안내](16차/source/README.md) · [변경과 검증 범위](docs/versions/16차.md)
+[17차 소스·빌드](17차/source/README.md) · [변경과 검사](docs/versions/17차.md) · [전체 차수](docs/REVISION_INDEX.md)
 
-다음 글자가 나타나면 진행하는 선택형 적응 대기, 단계별 실제 시간 표시, 정지·일시정지 경합 수리와 OBJ 기반 입체 모델을 추가했습니다. 기존 매크로의 대기 수치와 저장 형식, 이전 차수는 보존합니다. 나눔고딕 Bold와 기존 OFL 고지를 포함합니다.
+화면 정보 지연과 일시적인 OCR 오류는 터치 없이 복구하고 새 화면으로 재확인합니다. 글자가 없을 때 사용하는 자동 스크롤 두 경로는 손가락 이동 거리를 절반으로 줄였습니다. 직접 등록한 스와이프, 기존 매크로·중복 방지·정지와 사용자가 정한 전체 실행 제한을 유지합니다.
 
-개인 키·프로필·실행 원문·APK·캐시는 공개하지 않습니다. 실제 게임·블루스택 다중 실행·24시간 운용의 성공률은 별도 측정이 필요합니다.
+개인 키·프로필·실행 원문·APK·캐시는 공개하지 않습니다. 실제 사용자 블루스택과 24시간 운용의 무중단을 이 시험으로 보증하지 않습니다.
 
 <a name="overview"></a>
 
@@ -44,7 +44,7 @@
 
 | 관심 있는 내용 | 바로가기 |
 | :--- | :--- |
-| 코드를 먼저 보고 싶어요 | [최신 원본 폴더](16차/source/) |
+| 코드를 먼저 보고 싶어요 | [최신 원본 폴더](17차/source/) |
 | 이전과 무엇이 다른가요? | [차수별 해설과 근거](docs/VERSIONS.md) |
 | 어떻게 실행하나요? | [준비 조건과 실행 제약](#quick-start) |
 
@@ -159,16 +159,16 @@ flowchart LR
 
 ## 🚀 빠른 시작
 
-최신 15차는 소스·Gradle 설정·Manifest·리소스와 글꼴 라이선스를 포함합니다. JDK17과 Android SDK35를 준비한 뒤 [15차 빌드 안내](15차/source/README.md)를 따릅니다. 과거 14차 공개 사본에서 일부 빌드 입력이 빠졌던 상태와 구분합니다.
+최신 17차는 소스·Gradle 설정·Manifest·리소스와 글꼴 라이선스를 포함합니다. JDK17과 Android SDK35를 준비한 뒤 [17차 빌드 안내](17차/source/README.md)를 따릅니다. 과거 14차 공개 사본에서 일부 빌드 입력이 빠졌던 상태와 구분합니다.
 
 ```powershell
-cd 15차/source
+cd 17차/source
 .\gradlew.bat :app:assembleRelease :app:testDebugUnitTest :app:lintDebug
 ```
 
 PC용은 `-PNEX_PC`로 ARM64와 x86_64를 함께 빌드합니다. 납품용 `빌드.ps1`은 로컬 전용 연결과 기존 개인 키를 요구합니다. 일반 개발 구성은 개인 서명이 없으면 debug 서명을 사용하므로 기존 개인 서명 앱의 업데이트를 보장하지 않습니다. 키는 공개하지 않습니다.
 
-15차의 실제 로컬 검증과 한계는 변경 기록에 따로 적습니다. Android 소유 시험 장치의 결과를 사용자 블루스택이나 24시간 무중단 검증으로 표현하지 않습니다.
+17차의 실제 로컬 검증과 한계는 변경 기록에 따로 적습니다. Android 소유 시험 장치의 결과를 사용자 블루스택이나 24시간 무중단 검증으로 표현하지 않습니다.
 
 <a name="data-settings"></a>
 
@@ -215,25 +215,26 @@ PC용은 `-PNEX_PC`로 ARM64와 x86_64를 함께 빌드합니다. 납품용 `빌
 | 차수·보관본 | 파일·폴더 | 설명 | 공개 파일 전체 비교 |
 |---|---|---|---|
 | 기본 | [📁 57개](%EC%BD%94%EB%93%9C) | [기능·검증 설명](docs/versions/%EA%B8%B0%EB%B3%B8.md) | [🔍 전체 차이·해시](docs/revision-audit/%EA%B8%B0%EB%B3%B8.md) |
-| 1차 | [📁 30개](1%EC%B0%A8) | [기능·검증 설명](docs/versions/1%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/1%EC%B0%A8.md) |
+| 1차 | [📁 41개](1%EC%B0%A8) | [기능·검증 설명](docs/versions/1%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/1%EC%B0%A8.md) |
 | 2차 | [📁 15개](2%EC%B0%A8) | [기능·검증 설명](docs/versions/2%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/2%EC%B0%A8.md) |
-| 3차 | [📁 29개](3%EC%B0%A8) | [기능·검증 설명](docs/versions/3%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/3%EC%B0%A8.md) |
-| 4차 | [📁 48개](4%EC%B0%A8) | [기능·검증 설명](docs/versions/4%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/4%EC%B0%A8.md) |
-| 5차 | [📁 51개](5%EC%B0%A8) | [기능·검증 설명](docs/versions/5%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/5%EC%B0%A8.md) |
-| 6차 | [📁 62개](6%EC%B0%A8) | [기능·검증 설명](docs/versions/6%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/6%EC%B0%A8.md) |
+| 3차 | [📁 42개](3%EC%B0%A8) | [기능·검증 설명](docs/versions/3%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/3%EC%B0%A8.md) |
+| 4차 | [📁 60개](4%EC%B0%A8) | [기능·검증 설명](docs/versions/4%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/4%EC%B0%A8.md) |
+| 5차 | [📁 64개](5%EC%B0%A8) | [기능·검증 설명](docs/versions/5%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/5%EC%B0%A8.md) |
+| 6차 | [📁 78개](6%EC%B0%A8) | [기능·검증 설명](docs/versions/6%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/6%EC%B0%A8.md) |
 | 7차 | [📁 2개](7%EC%B0%A8) | [보관 범위](docs/revision-audit/7%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/7%EC%B0%A8.md) |
-| 8차 | [📁 65개](8%EC%B0%A8) | [기능·검증 설명](docs/versions/8%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/8%EC%B0%A8.md) |
-| 9차 | [📁 68개](9%EC%B0%A8) | [기능·검증 설명](docs/versions/9%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/9%EC%B0%A8.md) |
-| 10차 | [📁 75개](10%EC%B0%A8) | [기능·검증 설명](docs/versions/10%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/10%EC%B0%A8.md) |
-| 11차 | [📁 82개](11%EC%B0%A8) | [기능·검증 설명](docs/versions/11%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/11%EC%B0%A8.md) |
-| 12차 | [📁 86개](12%EC%B0%A8) | [기능·검증 설명](docs/versions/12%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/12%EC%B0%A8.md) |
-| 13차 | [📁 94개](13%EC%B0%A8) | [기능·검증 설명](docs/versions/13%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/13%EC%B0%A8.md) |
-| 14차 | [📁 108개](14%EC%B0%A8) | [기능·검증 설명](docs/versions/14%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/14%EC%B0%A8.md) |
-| 15차 | [📁 117개](15%EC%B0%A8) | [기능·검증 설명](docs/versions/15%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/15%EC%B0%A8.md) |
-| 16차 | [📁 138개](16%EC%B0%A8) | [기능·검증 설명](docs/versions/16%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/16%EC%B0%A8.md) |
+| 8차 | [📁 81개](8%EC%B0%A8) | [기능·검증 설명](docs/versions/8%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/8%EC%B0%A8.md) |
+| 9차 | [📁 96개](9%EC%B0%A8) | [기능·검증 설명](docs/versions/9%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/9%EC%B0%A8.md) |
+| 10차 | [📁 97개](10%EC%B0%A8) | [기능·검증 설명](docs/versions/10%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/10%EC%B0%A8.md) |
+| 11차 | [📁 91개](11%EC%B0%A8) | [기능·검증 설명](docs/versions/11%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/11%EC%B0%A8.md) |
+| 12차 | [📁 92개](12%EC%B0%A8) | [기능·검증 설명](docs/versions/12%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/12%EC%B0%A8.md) |
+| 13차 | [📁 107개](13%EC%B0%A8) | [기능·검증 설명](docs/versions/13%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/13%EC%B0%A8.md) |
+| 14차 | [📁 117개](14%EC%B0%A8) | [기능·검증 설명](docs/versions/14%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/14%EC%B0%A8.md) |
+| 15차 | [📁 120개](15%EC%B0%A8) | [기능·검증 설명](docs/versions/15%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/15%EC%B0%A8.md) |
+| 16차 | [📁 153개](16%EC%B0%A8) | [기능·검증 설명](docs/versions/16%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/16%EC%B0%A8.md) |
+| 17차 | [📁 148개 · 소스143개](17%EC%B0%A8) | [기능·검증 설명](docs/versions/17%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/17%EC%B0%A8.md) |
 | 실행점검-2차 | [📁 7개](%EC%8B%A4%ED%96%89%EC%A0%90%EA%B2%80/2%EC%B0%A8) | [기능·검증 설명](docs/versions/%EC%8B%A4%ED%96%89%EC%A0%90%EA%B2%80-2%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/%EC%8B%A4%ED%96%89%EC%A0%90%EA%B2%80-2%EC%B0%A8.md) |
 | 최종.json | [📄 매크로 설정](최종.json) | [자료 설명](docs/versions/최종설정.md) | 제품 버전과 구분한 설정 |
-| 고유 작업 코드·문서 | [📁 170개](보존자료/작업소스/) | [원본 제품자료 목록](docs/SOURCE_MATERIALS.md) | 원래 차수·경로와 파일별 SHA-256 유지 |
+| 고유 작업 자료 | [📁 170개](보존자료/작업소스/) | [원본 제품자료 목록](docs/SOURCE_MATERIALS.md) | [전체 비교·차수별 해시](docs/REVISION_AUDIT.md) |
 
 
 ### 🖼️ 차수별 화면과 검증 이미지
